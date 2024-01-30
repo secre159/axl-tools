@@ -1694,7 +1694,7 @@ def meyexudi():
   except:
     sys.exit()
 meyexudi()
-#os.system("python JUBAYER.py")
+os.system("python axl.py")
 def naima():
 	print('-------------------')
 print(logo)
