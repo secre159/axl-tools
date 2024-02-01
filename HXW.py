@@ -243,16 +243,74 @@ def method():
     totalpass = []
     os.system("clear")
     print(logo)
-    if 'o':      
-        lp = input(f'{oo("?")}Total Password? : ')
-        if lp.isnumeric():
-            ex = 'firstlast first123 last123'
-            print(f'{oo("+")}{ex} (ETC)')
-            for x in range(int(lp)):
-                totalpass.append(input(f'{oo(x+1)}Password : '))
-            pass
+    password_choice = input(f'{oo("?")}Do you want to input your own passwords? (y/n): ')
+
+    if password_choice.lower() == 'y':
+        tpp = input(f'{oo("?")}Total Password? : ')
+        totalpass.append('first')
+        totalpass.append('last')
+    if tpp.isnumeric():
+        ex = 'firstlast first123 last123'
+        print(f'{oo("+")}{ex} (ETC)')
+        for x in range(int(tpp)):
+            totalpass.append(input(f'{oo(x+1)}Password : '))
         else:
-            print(f"{oo('!')}Numeric Only")
+    # Use hardcoded passwords
+            totalpass = ['first1',
+                         'first12',
+                         'first123',
+                         'first1234',
+                         'first12345',
+                         'first123456',
+                         'first1234567',
+                         'first12345678',
+                         'first123456789',
+                         'first10',
+                         'first11',
+                         'first12',
+                         'first13',
+                         'first14',
+                         'first15',
+                         'first16',
+                         'first17',
+                         'first18',
+                         'first19',
+                         'first20',
+                         'first143',
+                         'firstgwapo',
+                         'firstgandako',
+                         'firstmaganda',
+                         'firstganda',
+                         'firstpogi',
+                         'firstcute'
+                         
+                         'last1',
+                         'last12',
+                         'last123',
+                         'last1234',
+                         'last12345',
+                         'last123456',
+                         'last1234567',
+                         'last12345678',
+                         'last123456789',
+                         'last10',
+                         'last11',
+                         'last12',
+                         'last13',
+                         'last14',
+                         'last15',
+                         'last16',
+                         'last17',
+                         'last18',
+                         'last19',
+                         'last20',
+                         'last143',
+                         'lastgwapo',
+                         'lastgandako',
+                         'lastmaganda',
+                         'lastganda',
+                         'lastpogi',
+                         'lastcute']
             exit()
     print(f'\n'+oo("1")+'Method 1 (Updated)\n'+oo("2")+'Method 2 (Updated)')
     m=input(f"{oo('!')}Input : ") 
