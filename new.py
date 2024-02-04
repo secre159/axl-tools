@@ -236,17 +236,38 @@ def menu():
 				mthd=input(' Choose: ')
 				linex()
 				plist = []
-				try:
-					ps_limit = int(input(' How many passwords do you want to add ? '))
-				except:
-					ps_limit =1
-				clear()
-				print('\033[1;32m exp: first last,firtslast,first123')
-				linex()
-				for i in range(ps_limit):
-					plist.append(input(f' Put password {i+1}: '))
-				clear()
-				print(' Do you want to show cp account? (y/n): ')
+
+                                # Ask the user if they want to add a new passlist or use auto passlists
+				use_auto_passlists = input('Do you want to use auto passlists? (yes/no): ').lower()
+				if use_auto_passlists == 'yes':
+                                    # Hardcoded auto passlists
+                                    frs = 'first'
+                                    pwv = []
+                                    pwv.append(frs + last)
+                                    pwv.extend([frs + ''.join(str(i) for i in range(1, j+1)) for j in range(1, 10)])  # 'first1' to 'first123456789'
+                                    pwv.append(frs + '143')
+                                    pwv.append(nmf)
+                                    pwv.extend([frs + word for word in ['gwapo', 'gandako', 'maganda', 'ganda', 'pogi', 'cute']])
+
+                                    plist.extend(pwv)
+                                else:
+                                    try:
+                                        ps_limit = int(input('How many passwords do you want to add? '))
+                                    except ValueError:
+                                        ps_limit = 1
+
+                                    clear()
+                                    print('\033[1;32mexp: first last, firstlast, first123')
+                                    linex()
+
+                                    for i in range(ps_limit):
+                                        plist.append(input(f'Put password {i + 1}: '))
+
+                                    clear()
+
+                                # Now `plist` contains the passwords based on the user's choice
+									
+                                print(' Do you want to show cp account? (y/n): ')
 				linex()
 				cx=input(' Choose: ')
 				if cx in ['y','Y','yes','Yes','1']:
