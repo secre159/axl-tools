@@ -1,5 +1,5 @@
 #-----------------[ MR-AXL ]-------------------#
- 
+import datetime as dt
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
@@ -18,8 +18,8 @@ pretty.install()
 CON=sol()
  #------------------[ MR-AXL ]-------------------#
 import os, platform, time, sys
-os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
-os.system('pip install httpx pip install beautifulsoup4')
+#os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
+#os.system('pip install httpx pip install beautifulsoup4')
 os.system('pip install requests ')
 os.system('pip install bs4')
 #os.system('pip install rich')
