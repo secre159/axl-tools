@@ -1652,20 +1652,17 @@ logo ="""
 \033[0;92m                ░  ░ ░    ░      ░  ░
                      
 \033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
-╠══[Author                   • \33[1;38mAXL    ║\033[1;31m 
-╠══[Facebook                 • AXL CHAN        ║  \033[1;97m  
-╠══[Github                   • \33[1;38mSECRET ║\33[1;34m   
-╠══[Whatsapp                 • 01*********     ║\33[1;35m 
-╠══[TOOLS                    • Paid            ║ \33[1;32m   
-╠══[VERSION                  • 1.2]            ║\033[1;35m 
+╠══[Author                   • \33[1;38mAXL       ║\033[1;31m 
+╠══[Facebook                 • AXL CHAN           ║  \033[1;97m  
+╠══[Github                   • \33[1;38mSECRET    ║\33[1;34m   
+╠══[Whatsapp                 • 01*********        ║\33[1;35m 
+╠══[TOOLS                    • Paid               ║ \33[1;32m   
+╠══[VERSION                  • 1.2]               ║\033[1;35m 
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m"""
 balpakna =("""\x1b[38;5;50m══════════════════════════════════════════════════""")    
 meyermarexudi =(""" \033[0;97m=============================================""")    
-alltimexudi =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 7 DEYS 200 TK 3 FOR    APPROVAL""")
-xudartimenai =(""" \033[32;1m[+] TO CONTACT OWNER PLEASE ENTER""")
-fuckyoursali =(""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝙿𝙿𝚁𝙾𝚅𝙴𝙳""")
+approved =(""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝙿𝙿𝚁𝙾𝚅𝙴𝙳""")
 os.system('clear')
-xudinaministar =(""" \033[38;1m[-] Important Note """)
 hedaborakarent =(""" \033[35;1m[𝟸] Enjoy Cracking😎 """)
 os.system('clear')
                   #____APPROVAL SYSTEM ADD_____#
@@ -1678,7 +1675,7 @@ def meyexudi():
     httpCaht = requests.get(
         'https://github.com/secre159/approval/blob/main/approved.txt').text
     if id in httpCaht:
-      print(fuckyoursali)
+      print(approved)
       print(hedaborakarent)
       msg = str(os.geteuid())
       #time.sleep(0.5)
