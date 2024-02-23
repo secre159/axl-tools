@@ -1676,7 +1676,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/secre159/approval/blob/main/approved.txtt').text
+    httpCaht = requests.get('https://github.com/secre159/approval/blob/main/approved.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -1713,6 +1713,22 @@ def back():
 	login()
 	
 	import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+    username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
+    password = input('\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m ENTER PASSWORD: ')
+
+    if username == 'V' and password == '7':
+        print(' \033[0;95mYou Have Successfully Logged in.')
+        os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
+        break
+    else:
+        print(' Incorrect Pass Please Trying ')
+        attemps += 1
+        continue
+os.system('clear')
 pass
  
  
@@ -2110,7 +2126,6 @@ def passwrd():
                 if len(frs) < 3:
                     pwv.append(nmf)
                     pwv.append('gandako')
-                    pwv.append('pogiko')
                     
                     
             if 'ya' in pwpluss:
