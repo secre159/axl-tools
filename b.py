@@ -32,7 +32,6 @@ time.sleep(2)
 print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 6.1...! ')
 os.system("espeak -a 300 \"UPDATE VERSION 6.1,\"")
 time.sleep(2)
-#os.system('clear')
 ##os.system("espeak -a 300 \"Enter,Username,and,password, \"")##
 #------------------[ MR-ALONE ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
@@ -1289,7 +1288,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/MR-ALONE786/File-Cloning/blob/main/Approved.txt').text
+    prox= requests.get('https://github.com/secre159/approval/blob/main/approved.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -1610,7 +1609,7 @@ tgl = datetime.datetime.now().day
 bln = dic[(str(datetime.datetime.now().month))]
 thn = datetime.datetime.now().year
 okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
-cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
+CPc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 date = str(tgl)+'/'+str(bln)+'/'+str(thn)
 ltx = int(lt()[3])
 if ltx > 12:
@@ -1635,15 +1634,13 @@ def clear():
 def back():
     login()
 def contact():
-    os.system('xdg-open https://www.facebook.com/profile.php?id=axczel.xhan')
+    os.system('xdg-open https://www.facebook.com/profile.php?id=100088035424278')
     back()
 def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('xdg-open https://www.facebook.com/profile.php?id=100088035424278')
 logo ="""
-
 \033[0;92m          
 \033[0;92m           ▄▄▄      ▒██   ██▒ ██▓    
 \033[0;92m          ▒████▄    ▒▒ █ █ ▒░▓██▒    
@@ -1712,57 +1709,27 @@ print(logo)
 os.system('espeak -a 300 " Please,   Text,   Your,   Real,   Name,   Sir,"')
 uname =input('\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m WHAT IS YOUR NAME \033[1;91m: \33[1;31m')
 os.system('espeak -a 300 " Welcome,   to,  MR.ALONE,  PAID,   Tools"')
-
-
-def meyexudi():
-    os.system('clear')
-    print(logo)
-    uuid = str(os.geteuid()) + str(os.getlogin())
-    id = "-".join(uuid)
-    try:
-        httpCaht = requests.get(
-            'https://github.com/secre159/approval/blob/main/approved.txt').text
-        if id in httpCaht:
-            print(approved)
-            print(hedaborakarent)
-            msg = str(os.geteuid())
-            # time.sleep(0.5)
-            print()
-            pass
-        else:
-            print(meyermarexudi)
-           # print(" \033[32;1m[+] Your Kay : "+id)
-            os.system(
-                'espeak -a 300 " Hello,   Sir,   I,   Am,    Robot,   of,  AXL,    Please,   Send,   Your,   Key,"')
-            print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
-            input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-            tks = (
-                'Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id)
-            os.system('am start https://m.me/axczel.xhan?text='+tks), approval()
-            time.sleep(1)
-            meyexudi()
-    except:
-        sys.exit()
-
-
-meyexudi()
-# os.system("python AXL.py")
-
-
-def naima():
-    print('-------------------')
-
-
-print(logo)
-os.system('espeak -a 300 " Please,   Enter,   Your,   Real,   Name,   Sir,"')
-uname = input(
-    '\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m WHAT IS YOUR NAME \033[1;91m: \33[1;31m')
-os.system('espeak -a 300 " Welcome,   to,  AXL,BRO,  PAID,   Tools"')
-
 def back():
 	login()
 	
 	import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+    username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
+    password = input('\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m ENTER PASSWORD: ')
+
+    if username == 'V' and password == '7':
+        print(' \033[0;95mYou Have Successfully Logged in.')
+        os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
+        break
+    else:
+        print(' Incorrect Pass Please Trying ')
+        attemps += 1
+        continue
+os.system('clear')
+pass
  
  
 def login():
