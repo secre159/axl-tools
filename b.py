@@ -2109,36 +2109,7 @@ def passwrd():
             else:
                 if len(frs) < 3:
                     pwv.append(nmf)
-                else:
-                    pwv.append(last+frs)
-                    pwv.append(last+'1'),
-                    pwv.append(last+'12'),
-                    pwv.append(last+'123'),
-                    pwv.append(last+'1234'),
-                    pwv.append(last+'12345'),
-                    pwv.append(last+'123456'),
-                    pwv.append(last+'1234567'),
-                    pwv.append(last+'12345678'),
-                    pwv.append(last+'123456789'),
-                    pwv.append(last+'10'),
-                    pwv.append(last+'11'),
-                    pwv.append(last+'12'),
-                    pwv.append(last+'13'),
-                    pwv.append(last+'14'),
-                    pwv.append(last+'15'),
-                    pwv.append(last+'16'),
-                    pwv.append(last+'17'),
-                    pwv.append(last+'18')
-                    pwv.append(last+'19')
-                    pwv.append(last+'20')
-                    pwv.append(last+'143')
-                    pwv.append(nmf)
-                    pwv.append(last+'gwapo')
-                    pwv.append(last+'gandako')
-                    pwv.append(last+'maganda')
-                    pwv.append(last+'ganda')
-                    pwv.append(last+'pogi')
-                    pwv.append(last+'cute')
+		    pwv.append(gandako)
                     
                     
             if 'ya' in pwpluss:
