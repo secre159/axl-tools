@@ -1661,13 +1661,6 @@ logo ="""
 [] VERSION      :      𝟔.𝟏
 [] MESSENGER    :      𝗔𝗟𝗢𝗡𝗘 𝗧𝗲𝗿𝗺𝘂𝘅 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆
 =================================================="\033[1;23m"""                                
-balpakna =("""\x1b[38;5;50m══════════════════════════════════════════════════""")    
-meyermarexudi =(""" \033[0;97m=============================================""")    
-alltimexudi =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 7 DEYS 150TK 30 500TK FOR    APPROVAL""")
-xudartimenai =(""" \033[32;1m[+] CONTACT ADMIN PLZ ENTAR""")
-fuckyoursali =(""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝙿𝙿𝚁𝙾𝚅𝙴𝙳""")
-xudinaministar =(""" \033[38;1m[-] Importent Note """)
-hedaborakarent =(""" \033[35;1m[𝟸] 𝙵𝚄𝙲𝙺 𝙱𝚈𝙿𝙰𝚂𝙰𝚁 𝙲𝙷𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝙳𝙰𝚃𝙰 ABAL😎 """)
 
                   #____APPROVAL SYSTEM ADD_____#
 def meyexudi():
@@ -1685,52 +1678,14 @@ def meyexudi():
       print()
       pass
     else:
-      print(meyermarexudi)
-     # print(" \033[32;1m[+] Your Kay : "+id)
-      print(' \x1b[38;5;208m╔══[𝟷]💥  FREE-FIRE-TIK-TOK- ID CLONING')      
-      print(' \x1b[1;98m║══[𝟸]💥  ONLY ACTIVE ID CLONE 100%')
-      print(' \x1b[1;93m║══[𝟸]💥  CP ID WILL BE LOGIN 80%')
-      print(' \x1b[1;97m║══[𝟸]💥  WI-FI  AND DATA BOTH WORKING 100%')
-      print(' \x1b[1;95m║══[𝟸]💥  15 DAY 250 TAKA ')
-      print(' \x1b[38;5;50m║══[𝟸]💥  30 DAY 500 TAKA ')
-      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   MR,   ALONE,    Please,   Send,   Your,   Key,"')
       print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
-      input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801309177411?text='+tks),approval()      
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+639682468435?text='+tks),approval()      
       time.sleep(1)
       meyexudi()
   except:
     sys.exit()
 meyexudi()
 #os.system("python ALONE.py")
-def naima():
-	print('-------------------')
-print(logo)
-os.system('espeak -a 300 " Please,   Text,   Your,   Real,   Name,   Sir,"')
-uname =input('\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m WHAT IS YOUR NAME \033[1;91m: \33[1;31m')
-os.system('espeak -a 300 " Welcome,   to,  MR.ALONE,  PAID,   Tools"')
-def back():
-	login()
-	
-	import getpass
-
-attemps = 0
-
-while attemps < 12345677901:
-    username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
-    password = input('\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m ENTER PASSWORD: ')
-
-    if username == 'V' and password == '7':
-        print(' \033[0;95mYou Have Successfully Logged in.')
-        os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
-        break
-    else:
-        print(' Incorrect Pass Please Trying ')
-        attemps += 1
-        continue
-os.system('clear')
-pass
- 
  
 def login():
     try:
@@ -1815,7 +1770,7 @@ def menu():
     elif HEART in ['1']:
         crack_file()
     elif HEART in ['2','02']:
-        os.system('xdg-open https://github.com/Mr-Alon')
+        #os.system('xdg-open https://github.com/Mr-Alon')
         os.system("python b.py")
     elif HEART in ['3','03']:
         result()
