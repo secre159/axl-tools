@@ -1676,7 +1676,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/secre159/approval/blob/main/approved.txt').text
+    httpCaht = requests.get('https://github.com/secre159/approval/blob/main/approved.txtt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -2109,7 +2109,8 @@ def passwrd():
             else:
                 if len(frs) < 3:
                     pwv.append(nmf)
-		    pwv.append(gandako)
+                    pwv.append('gandako')
+                    pwv.append('pogiko')
                     
                     
             if 'ya' in pwpluss:
