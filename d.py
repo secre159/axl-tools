@@ -393,7 +393,7 @@ class main_crack():
             linex()
             if sl =='':
                 print(f'{G1}[{A}={G5}]{G5} PUT LIMIT BETWEEN 1 TO 30')
-            elif sl > 20:
+            elif sl > 30:
                 print(f'{G1}[{A}={G1}]{G1} PASSWORD LIMIT SHOULD NOT BE GREATER THAN 30')
             else:
                 for sr in range(sl):
